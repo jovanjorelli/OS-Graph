@@ -86,7 +86,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   return (
     <div ref={containerRef} className="relative w-full">
       <div className="relative flex items-center">
-        <Search className="absolute left-3 w-3.5 h-3.5 text-neutral-400 pointer-events-none" />
+        <Search className="absolute left-2.5 sm:left-3 w-3 sm:w-3.5 h-3 sm:h-3.5 text-neutral-400 pointer-events-none" />
         <input
           ref={inputRef}
           type="text"
@@ -99,7 +99,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleInputKeyDown}
           placeholder="Search..."
-          className="w-full pl-9 pr-8 py-2 bg-neutral-950/90 text-xs text-neutral-100 placeholder-neutral-500 rounded-xl border border-neutral-800/80 shadow-lg backdrop-blur-xl focus:outline-none focus:border-neutral-600 transition-colors"
+          className="w-full pl-8 sm:pl-9 pr-8 py-1.5 sm:py-2 bg-neutral-950/90 text-[11px] sm:text-xs text-neutral-100 placeholder-neutral-500 rounded-xl border border-neutral-800/80 shadow-lg backdrop-blur-xl focus:outline-none focus:border-neutral-600 transition-colors"
         />
         {query && (
           <div className="absolute right-2.5 flex items-center">

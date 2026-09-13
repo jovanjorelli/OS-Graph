@@ -1,5 +1,5 @@
 import React from 'react';
-import { Filter, RotateCcw, Calendar } from 'lucide-react';
+import { Filter, RotateCcw, Calendar, X } from 'lucide-react';
 import type { OperatingSystemFamily } from '../types/os';
 import { FAMILY_NEON_PALETTE, FAMILY_NAMES } from '../utils/colors';
 
@@ -13,6 +13,7 @@ interface FilterToolbarProps {
   onSignificanceTierChange: (tier: number) => void;
   visibleCount: number;
   totalCount: number;
+  onClose?: () => void;
 }
 
 const ALL_FAMILIES: OperatingSystemFamily[] = [
@@ -34,20 +35,39 @@ export const FilterToolbar: React.FC<FilterToolbarProps> = ({
   onSignificanceTierChange,
   visibleCount,
   totalCount,
+  onClose,
 }) => {
   return (
-    <div className="flex flex-col gap-3.5 p-4 bg-neutral-950/95 backdrop-blur-2xl border border-neutral-800/90 rounded-2xl shadow-2xl text-xs select-none">
-      <div className="flex items-center justify-between pb-3 border-b border-neutral-800/80">
+    <div className="flex flex-col gap-3 p-3.5 sm:p-4 bg-neutral-950/95 backdrop-blur-2xl border-t sm:border border-neutral-800/90 rounded-t-3xl sm:rounded-2xl shadow-2xl text-[11px] sm:text-xs select-none">
+      <button
+        onClick={onClose}
+        className="w-full flex justify-center py-1 -mt-1 mb-1 focus:outline-none sm:hidden shrink-0 cursor-pointer group"
+        aria-label="Hide filters"
+      >
+        <div className="w-10 h-1 rounded-full bg-neutral-700/80 group-active:bg-neutral-500 transition-colors" />
+      </button>
+      <div className="flex items-center justify-between pb-2.5 sm:pb-3 border-b border-neutral-800/80">
         <div className="flex items-center space-x-2">
           <Filter className="w-3.5 h-3.5 text-neutral-400" />
           <span className="font-semibold text-neutral-100 text-xs tracking-tight">
             Graph Filters
           </span>
         </div>
-        <div className="font-mono text-[11px] text-neutral-400 bg-neutral-900 px-2 py-0.5 rounded-md border border-neutral-800">
-          <span className="text-white font-semibold">{visibleCount.toLocaleString()}</span>
-          <span className="text-neutral-500"> / </span>
-          <span>{totalCount.toLocaleString()}</span>
+        <div className="flex items-center space-x-2">
+          <div className="font-mono text-[10px] sm:text-[11px] text-neutral-400 bg-neutral-900 px-2 py-0.5 rounded-md border border-neutral-800">
+            <span className="text-white font-semibold">{visibleCount.toLocaleString()}</span>
+            <span className="text-neutral-500"> / </span>
+            <span>{totalCount.toLocaleString()}</span>
+          </div>
+          {onClose && (
+            <button
+              onClick={onClose}
+              className="p-1 rounded-md text-neutral-400 hover:text-white hover:bg-neutral-900 transition-colors sm:hidden"
+              aria-label="Close filters"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
         </div>
       </div>
 

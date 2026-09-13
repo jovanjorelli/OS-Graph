@@ -16,8 +16,9 @@ export function computeAncestryPaths(
   const queue: [string, string[]][] = [[startId, [startId]]];
   paths.set(startId, [startId]);
 
-  while (queue.length > 0) {
-    const [curr, currentPath] = queue.shift()!;
+  let head = 0;
+  while (head < queue.length) {
+    const [curr, currentPath] = queue[head++];
     const parents = parentMap.get(curr) || [];
     for (const p of parents) {
       if (!paths.has(p)) {

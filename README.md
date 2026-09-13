@@ -13,7 +13,7 @@
   <p align="center">
     <a href="https://jovanjorelli.github.io/OS-Graph/"><img src="https://img.shields.io/badge/Launch_App-0969da?style=flat&logo=github&logoColor=white" alt="Launch App" /></a>&nbsp;
     <a href="#features"><img src="https://img.shields.io/badge/Key_Features-8250df?style=flat&logo=git&logoColor=white" alt="Key Features" /></a>&nbsp;
-    <a href="versions/"><img src="https://img.shields.io/badge/Versions-v1.0.0-1f883d?style=flat&logo=archive&logoColor=white" alt="Versions" /></a>&nbsp;
+    <a href="versions/"><img src="https://img.shields.io/badge/Versions-v1.0.1-1f883d?style=flat&logo=archive&logoColor=white" alt="Versions" /></a>&nbsp;
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2da44e?style=flat&logo=open-source-initiative&logoColor=white" alt="MIT License" /></a>
   </p>
 
@@ -49,10 +49,13 @@ Traced across 1,490 evolutionary connections, the platform charts the branching 
 ## Key Features
 
 ### High-Throughput Canvas 2D Spatial Engine
-- **Spatial Hash Grid Indexing**: Custom $O(1)$ uniform bucket spatial grid eliminates linear searching across 2,083 nodes on pointer movements, maintaining fluid 60/120 FPS interaction.
+- **Spatial Hash Grid Indexing**: Custom $O(1)$ uniform bucket spatial grid eliminates linear searching across 2,083 nodes on pointer movements.
 - **Viewport-Aware Frustum Culling**: Off-screen elements and subpixel labels are dynamically culled before paint cycles.
 - **Dynamic Particle Filaments**: Directed animated particles illustrate downstream lineage propagation between ancestor and derivative operating systems.
 - **Micro-Quantized Font Cache**: Pre-computed typography lookup tables eliminate runtime string allocations during high-speed zooming and panning.
+
+> [!NOTE]
+> **Hardware Performance Notice**: Rendering thousands of interactive nodes and relationships on Canvas 2D involves intensive vector math and rasterization. Performance depends directly on client device capabilities, GPU acceleration, and display pixel density; older laptops, low-end integrated graphics, or high-DPI displays may encounter frame drops when displaying dense clusters with all filters disabled.
 
 ### Architectural Comparator & LCA Phylogenetic Paths
 - **Lowest Common Ancestor (LCA) Resolution**: Instantaneously determines the closest shared milestone system between any two selected operating systems.
@@ -141,6 +144,7 @@ Offline source distribution compressed with maximum ratio is maintained in [`ver
 
 | Version | Distribution | Compression Algorithm | Package |
 |---|---|---|---|
+| **v1.0.1** | Source Archive | Maximum Deflate (Level 9) | [`v1.0.1.zip`](versions/v1.0.1.zip) |
 | **v1.0.0** | Source Archive | Maximum Deflate (Level 9) | [`v1.0.0.zip`](versions/v1.0.0.zip) |
 
 ---

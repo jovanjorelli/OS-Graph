@@ -17,6 +17,15 @@ interface GraphCanvasProps {
   graphRef: React.MutableRefObject<ForceGraphGeneric<any, OperatingSystemNode, LineageLink> | null>;
 }
 
+const FAMILY_LINK_COLORS: Record<OperatingSystemFamily, string> = {
+  unix: 'rgba(99, 102, 241, 0.15)',
+  apple: 'rgba(168, 85, 247, 0.15)',
+  bsd: 'rgba(244, 63, 94, 0.15)',
+  windows: 'rgba(14, 165, 233, 0.15)',
+  linux: 'rgba(16, 185, 129, 0.15)',
+  independent: 'rgba(245, 158, 11, 0.15)',
+};
+
 const FONT_CACHE = new Map<string, string>();
 function getCachedFont(weight: string, size: number): string {
   const key = `${weight}:${size}`;
@@ -26,6 +35,57 @@ function getCachedFont(weight: string, size: number): string {
     FONT_CACHE.set(key, font);
   }
   return font;
+}
+
+interface NodeSprite {
+  canvas: HTMLCanvasElement;
+  radius: number;
+  size: number;
+}
+
+const NODE_SPRITES = new Map<string, NodeSprite>();
+
+function getNodeSprite(family: OperatingSystemFamily, significance: number): NodeSprite {
+  const key = `${family}:${significance}`;
+  let sprite = NODE_SPRITES.get(key);
+  if (sprite) return sprite;
+
+  const palette = FAMILY_NEON_PALETTE[family] || {
+    core: '#94a3b8',
+    glow: '#cbd5e1',
+    filament: 'rgba(148, 163, 184, 0.35)',
+  };
+
+  const baseRadius = 5 + significance * 2.2;
+  const haloRadius = baseRadius * 1.8;
+  const padding = 4;
+  const size = Math.ceil((haloRadius + padding) * 2);
+  const center = size / 2;
+
+  const canvas = document.createElement('canvas');
+  canvas.width = size;
+  canvas.height = size;
+  const ctx = canvas.getContext('2d');
+
+  if (ctx) {
+    ctx.beginPath();
+    ctx.arc(center, center, haloRadius, 0, Math.PI * 2);
+    ctx.fillStyle = palette.filament;
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.arc(center, center, baseRadius, 0, Math.PI * 2);
+    ctx.fillStyle = palette.core;
+    ctx.fill();
+
+    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+  }
+
+  sprite = { canvas, radius: baseRadius, size };
+  NODE_SPRITES.set(key, sprite);
+  return sprite;
 }
 
 const SECTOR_LABELS = [
@@ -60,6 +120,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
   const descendantLinksRef = useRef<Set<LineageLink>>(new Set());
   const isClampingRef = useRef(false);
   const spatialGridRef = useRef(new SpatialNodeGrid(350));
+  const renderedLabelCellsRef = useRef<Set<string>>(new Set());
 
   const viewportBoundsRef = useRef({
     minX: -Infinity,
@@ -67,6 +128,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     minY: -Infinity,
     maxY: Infinity,
   });
+
   const filteredData = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
 
@@ -86,10 +148,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         node.kernelName.toLowerCase().includes(query) ||
         node.inceptionYear.toString().includes(query);
 
-      return (
-        (selectedNode && node.id === selectedNode.id) ||
-        (matchesFamily && matchesYear && matchesTier && matchesQuery)
-      );
+      return matchesFamily && matchesYear && matchesTier && matchesQuery;
     });
 
     const visibleNodeIds = new Set(visibleNodes.map((n) => n.id));
@@ -104,7 +163,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       nodes: visibleNodes,
       links: visibleLinks,
     };
-  }, [nodes, links, selectedFamilies, yearRange, significanceTier, searchQuery, selectedNode]);
+  }, [nodes, links, selectedFamilies, yearRange, significanceTier, searchQuery]);
 
   const filteredDataRef = useRef(filteredData);
   useEffect(() => {
@@ -146,14 +205,15 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
       const qAncestors = [node.id];
       const visitedA = new Set<string>([node.id]);
-      while (qAncestors.length > 0) {
-        const curr = qAncestors.shift()!;
+      let headA = 0;
+      while (headA < qAncestors.length) {
+        const curr = qAncestors[headA++];
         const entry = parentMap.get(curr);
         if (entry) {
-          entry.links.forEach((l) => {
-            hLinks.add(l);
-            ancLinks.add(l);
-          });
+          for (let i = 0; i < entry.links.length; i++) {
+            hLinks.add(entry.links[i]);
+            ancLinks.add(entry.links[i]);
+          }
           entry.parentIds.forEach((pId) => {
             if (!visitedA.has(pId)) {
               visitedA.add(pId);
@@ -167,10 +227,10 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
 
       const entryDescendants = childMap.get(node.id);
       if (entryDescendants) {
-        entryDescendants.links.forEach((l) => {
-          hLinks.add(l);
-          descLinks.add(l);
-        });
+        for (let i = 0; i < entryDescendants.links.length; i++) {
+          hLinks.add(entryDescendants.links[i]);
+          descLinks.add(entryDescendants.links[i]);
+        }
         entryDescendants.childIds.forEach((cId) => {
           hNodes.add(cId);
           descNodes.add(cId);
@@ -218,11 +278,25 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       .enableNodeDrag(false)
       .minZoom(0.08)
       .maxZoom(2.8)
-      .enablePointerInteraction(true)
-      .linkDirectionalArrowLength(3.5)
+      .enablePointerInteraction(false)
+      .linkCurvature(0)
+      .linkVisibility((link: any) => {
+        if (highlightLinksRef.current.has(link)) return true;
+        const bounds = viewportBoundsRef.current;
+        const s = link.source;
+        const t = link.target;
+        if (!s || !t || typeof s.x !== 'number' || typeof t.x !== 'number') return true;
+        const minX = Math.min(s.x, t.x);
+        const maxX = Math.max(s.x, t.x);
+        const minY = Math.min(s.y, t.y);
+        const maxY = Math.max(s.y, t.y);
+        return maxX >= bounds.minX && minX <= bounds.maxX && maxY >= bounds.minY && minY <= bounds.maxY;
+      })
+      .linkDirectionalArrowLength((link: any) => {
+        return highlightLinksRef.current.has(link) ? 4.5 : 0;
+      })
       .linkDirectionalArrowRelPos(1)
       .linkDirectionalParticleSpeed(0.008)
-      .linkCurvature(0.04)
       .linkDirectionalParticles((link: LineageLink) => {
         const hasFocus = Boolean(hoverNodeRef.current || selectedNodeRef.current);
         if (!hasFocus || !highlightLinksRef.current.has(link)) return 0;
@@ -235,38 +309,31 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         return highlightLinksRef.current.has(link) ? 2.5 : 1;
       })
       .linkDirectionalArrowColor((link: any) => {
-        if (highlightLinksRef.current.has(link)) {
-          const total = highlightLinksRef.current.size;
-          if (ancestorLinksRef.current.has(link)) return '#38bdf8';
-          return total > 50 ? 'rgba(52, 211, 153, 0.45)' : '#34d399';
-        }
-        return 'rgba(115, 115, 115, 0.25)';
+        if (ancestorLinksRef.current.has(link)) return '#38bdf8';
+        const total = highlightLinksRef.current.size;
+        return total > 50 ? 'rgba(52, 211, 153, 0.45)' : '#34d399';
       })
       .linkColor((link: any) => {
         const isHighlight = highlightLinksRef.current.has(link);
         const hasFocus = Boolean(hoverNodeRef.current || selectedNodeRef.current);
         if (hasFocus) {
           if (isHighlight) {
-            const total = highlightLinksRef.current.size;
             if (ancestorLinksRef.current.has(link)) {
               return 'rgba(56, 189, 248, 0.95)';
             }
             if (descendantLinksRef.current.has(link)) {
-              return total > 50 ? 'rgba(52, 211, 153, 0.4)' : 'rgba(52, 211, 153, 0.95)';
+              return highlightLinksRef.current.size > 50 ? 'rgba(52, 211, 153, 0.4)' : 'rgba(52, 211, 153, 0.95)';
             }
             return 'rgba(255, 255, 255, 0.95)';
           }
           return 'rgba(255, 255, 255, 0.015)';
         }
         const sourceNode = link.source as OperatingSystemNode;
-        const sourceFamily = sourceNode?.family;
-        const palette = sourceFamily ? FAMILY_NEON_PALETTE[sourceFamily] : null;
-        return palette ? palette.filament.replace('0.35', '0.15') : 'rgba(115, 115, 115, 0.12)';
+        return (sourceNode && FAMILY_LINK_COLORS[sourceNode.family]) || 'rgba(115, 115, 115, 0.12)';
       })
       .linkWidth((link: any) => {
         if (!highlightLinksRef.current.has(link)) return 0.6;
-        const total = highlightLinksRef.current.size;
-        return total > 50 ? 0.85 : 2.2;
+        return highlightLinksRef.current.size > 50 ? 0.85 : 2.2;
       })
       .onZoomEnd(() => {
         if (isClampingRef.current) return;
@@ -289,6 +356,8 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         }
       })
       .onRenderFramePre((ctx: CanvasRenderingContext2D, globalScale: number) => {
+        renderedLabelCellsRef.current.clear();
+
         if (containerRef.current) {
           const w = containerRef.current.clientWidth;
           const h = containerRef.current.clientHeight;
@@ -311,11 +380,13 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         ctx.textAlign = 'center';
         ctx.textBaseline = 'middle';
 
-        SECTOR_LABELS.forEach((sec) => {
-          ctx.fillStyle = '#1c1c1c';
-          ctx.font = `800 ${Math.max(18, 32 / globalScale)}px 'JetBrains Mono', monospace`;
+        const labelFontSize = Math.max(18, 32 / globalScale);
+        ctx.fillStyle = '#1c1c1c';
+        ctx.font = `800 ${labelFontSize}px 'JetBrains Mono', monospace`;
+        for (let i = 0; i < SECTOR_LABELS.length; i++) {
+          const sec = SECTOR_LABELS[i];
           ctx.fillText(sec.text, sec.x, sec.y);
-        });
+        }
         ctx.restore();
       })
       .nodeCanvasObject((node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
@@ -340,68 +411,77 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           }
         }
 
+        const isAncestor = ancestorNodesRef.current.has(osNode.id);
+        const isDescendant = descendantNodesRef.current.has(osNode.id);
+
         let alpha = 1.0;
         if (hasActiveFocus && !isFocused && !isNeighbor) {
           alpha = 0.04;
+          ctx.globalAlpha = 0.04;
         }
 
         const baseRadius = 5 + osNode.significance * 2.2;
         const minScreenRadius = isFocused ? 7.5 : isNeighbor ? 5.5 : 3.5;
         const screenRadius = Math.max(minScreenRadius, baseRadius * globalScale);
-        const drawRadius = screenRadius / Math.max(0.05, globalScale);
+        const invScale = 1 / Math.max(0.05, globalScale);
+        const drawRadius = screenRadius * invScale;
 
-        const palette = FAMILY_NEON_PALETTE[osNode.family] || {
-          core: '#94a3b8',
-          glow: '#cbd5e1',
-          filament: 'rgba(148, 163, 184, 0.35)',
-        };
+        if (!isFocused && !isAncestor && !isDescendant) {
+          const sprite = getNodeSprite(osNode.family, osNode.significance);
+          const drawSize = (drawRadius / sprite.radius) * sprite.size;
+          ctx.drawImage(
+            sprite.canvas,
+            node.x - drawSize / 2,
+            node.y - drawSize / 2,
+            drawSize,
+            drawSize
+          );
+        } else {
+          const palette = FAMILY_NEON_PALETTE[osNode.family] || {
+            core: '#94a3b8',
+            glow: '#cbd5e1',
+            filament: 'rgba(148, 163, 184, 0.35)',
+          };
 
-        ctx.save();
-        ctx.globalAlpha = alpha;
-
-        if (isFocused || isNeighbor || globalScale >= 0.3) {
           ctx.beginPath();
           ctx.arc(node.x, node.y, drawRadius * 1.8, 0, 2 * Math.PI);
           ctx.fillStyle = isFocused ? 'rgba(255, 255, 255, 0.35)' : palette.filament;
           ctx.fill();
-        }
-
-        ctx.beginPath();
-        ctx.arc(node.x, node.y, drawRadius, 0, 2 * Math.PI);
-        ctx.fillStyle = isFocused ? '#ffffff' : palette.core;
-        ctx.fill();
-
-        ctx.strokeStyle = isFocused ? '#ffffff' : '#000000';
-        ctx.lineWidth = Math.max(1, 1.5 / globalScale);
-        ctx.stroke();
-
-        const isAncestor = ancestorNodesRef.current.has(osNode.id);
-        const isDescendant = descendantNodesRef.current.has(osNode.id);
-
-        if (isFocused) {
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, drawRadius + 4 / globalScale, 0, 2 * Math.PI);
-          ctx.strokeStyle = 'rgba(255, 255, 255, 0.45)';
-          ctx.lineWidth = Math.max(1.5, 2 / globalScale);
-          ctx.stroke();
 
           ctx.beginPath();
-          ctx.arc(node.x, node.y, drawRadius + 7 / globalScale, 0, 2 * Math.PI);
-          ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
-          ctx.lineWidth = Math.max(1, 1.5 / globalScale);
+          ctx.arc(node.x, node.y, drawRadius, 0, 2 * Math.PI);
+          ctx.fillStyle = isFocused ? '#ffffff' : palette.core;
+          ctx.fill();
+
+          ctx.strokeStyle = isFocused ? '#ffffff' : '#000000';
+          ctx.lineWidth = Math.max(1, 1.5 * invScale);
           ctx.stroke();
-        } else if (isAncestor) {
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, drawRadius + 3.5 / globalScale, 0, 2 * Math.PI);
-          ctx.strokeStyle = '#38bdf8';
-          ctx.lineWidth = Math.max(1.5, 2 / globalScale);
-          ctx.stroke();
-        } else if (isDescendant) {
-          ctx.beginPath();
-          ctx.arc(node.x, node.y, drawRadius + 3.5 / globalScale, 0, 2 * Math.PI);
-          ctx.strokeStyle = '#34d399';
-          ctx.lineWidth = Math.max(1.5, 2 / globalScale);
-          ctx.stroke();
+
+          if (isFocused) {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, drawRadius + 4 * invScale, 0, 2 * Math.PI);
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.45)';
+            ctx.lineWidth = Math.max(1.5, 2 * invScale);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, drawRadius + 7 * invScale, 0, 2 * Math.PI);
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+            ctx.lineWidth = Math.max(1, 1.5 * invScale);
+            ctx.stroke();
+          } else if (isAncestor) {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, drawRadius + 3.5 * invScale, 0, 2 * Math.PI);
+            ctx.strokeStyle = '#38bdf8';
+            ctx.lineWidth = Math.max(1.5, 2 * invScale);
+            ctx.stroke();
+          } else if (isDescendant) {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, drawRadius + 3.5 * invScale, 0, 2 * Math.PI);
+            ctx.strokeStyle = '#34d399';
+            ctx.lineWidth = Math.max(1.5, 2 * invScale);
+            ctx.stroke();
+          }
         }
 
         const isAnchor =
@@ -414,15 +494,20 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
         const isNotable = osNode.significance >= 3 || (osNode.sitelinks || 0) >= 10;
         const isDenseSelection = descendantNodesRef.current.size > 35;
 
-        const shouldShowLabel =
-          isFocused ||
-          isHovered ||
-          isAncestor ||
-          (!isDenseSelection && isNeighbor) ||
-          (isDenseSelection && isNeighbor && (isNotable || isAnchor)) ||
-          (isAnchor && globalScale >= 0.18) ||
-          (isNotable && globalScale >= 0.35) ||
-          globalScale >= 0.65;
+        let shouldShowLabel = false;
+        if (isFocused || isAncestor || (!isDenseSelection && isNeighbor) || (isDenseSelection && isNeighbor && (isNotable || isAnchor))) {
+          shouldShowLabel = true;
+        } else if (isAnchor && globalScale >= 0.2) {
+          shouldShowLabel = true;
+        } else if (isNotable && globalScale >= 0.45) {
+          shouldShowLabel = true;
+        } else if (globalScale >= 1.35) {
+          const cellKey = `${Math.floor(node.x / 140)}:${Math.floor(node.y / 45)}`;
+          if (!renderedLabelCellsRef.current.has(cellKey)) {
+            renderedLabelCellsRef.current.add(cellKey);
+            shouldShowLabel = true;
+          }
+        }
 
         if (shouldShowLabel) {
           const fontSize = Math.round(Math.max(11, Math.min(16, 12 / Math.sqrt(globalScale))));
@@ -432,7 +517,7 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           ctx.textBaseline = 'top';
 
           const label = osNode.name;
-          const textY = node.y + drawRadius + 4 / globalScale;
+          const textY = node.y + drawRadius + 4 * invScale;
 
           if (isFocused) {
             const metrics = ctx.measureText(label);
@@ -473,49 +558,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
           }
         }
 
-        ctx.restore();
-      })
-      .nodePointerAreaPaint((node: any, color: string, ctx: CanvasRenderingContext2D, globalScale: number) => {
-        const osNode = node as OperatingSystemNode;
-        const baseRadius = 6 + osNode.significance * 2.2;
-        const scale = Math.max(0.05, globalScale || 1);
-        const hitRadius = Math.max(baseRadius + 6, 16 / scale);
-        ctx.fillStyle = color;
-        ctx.beginPath();
-        ctx.arc(node.x, node.y, hitRadius, 0, 2 * Math.PI, false);
-        ctx.fill();
-      })
-      .onNodeClick((node: any) => {
-        if (node) {
-          onSelectNodeRef.current(node as OperatingSystemNode);
+        if (alpha !== 1.0) {
+          ctx.globalAlpha = 1.0;
         }
-      })
-      .onNodeHover((node: any) => {
-        const nextNode = (node as OperatingSystemNode) || null;
-        if (hoverNodeRef.current?.id === nextNode?.id) return;
-        hoverNodeRef.current = nextNode;
-        if (containerRef.current) {
-          containerRef.current.style.cursor = nextNode ? 'pointer' : 'grab';
-        }
-        updateHighlightsRef.current();
-      })
-      .onBackgroundClick((event: MouseEvent) => {
-        if (internalGraphRef.current && containerRef.current) {
-          const rect = containerRef.current.getBoundingClientRect();
-          const screenX = event.clientX - rect.left;
-          const screenY = event.clientY - rect.top;
-          const coords = internalGraphRef.current.screen2GraphCoords(screenX, screenY);
-          if (coords) {
-            const scale = Math.max(0.05, internalGraphRef.current.zoom() || 1);
-            const maxGraphDist = 22 / scale;
-            const closest = spatialGridRef.current.findClosest(coords.x, coords.y, maxGraphDist);
-            if (closest) {
-              onSelectNodeRef.current(closest);
-              return;
-            }
-          }
-        }
-        onSelectNodeRef.current(null);
       });
 
     internalGraphRef.current = graph;
@@ -526,6 +571,13 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     graph.zoom(0.08);
 
     const containerElem = containerRef.current;
+    let pointerDownPos: { x: number; y: number } | null = null;
+    let pointerType = 'mouse';
+
+    const handlePointerDown = (event: PointerEvent) => {
+      pointerDownPos = { x: event.clientX, y: event.clientY };
+      pointerType = event.pointerType || 'mouse';
+    };
 
     const handlePointerMove = (event: PointerEvent) => {
       if (!internalGraphRef.current || !containerRef.current) return;
@@ -553,6 +605,33 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       }
     };
 
+    const handleClick = (event: MouseEvent) => {
+      if (!internalGraphRef.current || !containerRef.current) return;
+      const target = event.target as HTMLElement | null;
+      if (target && target.closest('aside, header, [role="dialog"]')) return;
+
+      if (pointerDownPos) {
+        const threshold = pointerType === 'touch' ? 14 : 6;
+        const dist = Math.hypot(event.clientX - pointerDownPos.x, event.clientY - pointerDownPos.y);
+        pointerDownPos = null;
+        if (dist > threshold) return;
+      }
+
+      const rect = containerRef.current.getBoundingClientRect();
+      const screenX = event.clientX - rect.left;
+      const screenY = event.clientY - rect.top;
+      const coords = internalGraphRef.current.screen2GraphCoords(screenX, screenY);
+      if (coords) {
+        const scale = Math.max(0.05, internalGraphRef.current.zoom() || 1);
+        const touchBonus = pointerType === 'touch' ? 36 : 26;
+        const maxGraphDist = touchBonus / scale;
+        const closest = spatialGridRef.current.findClosest(coords.x, coords.y, maxGraphDist);
+        onSelectNodeRef.current(closest);
+        return;
+      }
+      onSelectNodeRef.current(null);
+    };
+
     const handlePointerLeave = () => {
       if (hoverNodeRef.current) {
         hoverNodeRef.current = null;
@@ -563,7 +642,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
       }
     };
 
+    containerElem.addEventListener('pointerdown', handlePointerDown);
     containerElem.addEventListener('pointermove', handlePointerMove);
+    containerElem.addEventListener('click', handleClick);
     containerElem.addEventListener('pointerleave', handlePointerLeave);
 
     const handleResize = () => {
@@ -578,7 +659,9 @@ export const GraphCanvas: React.FC<GraphCanvasProps> = ({
     handleResize();
 
     return () => {
+      containerElem.removeEventListener('pointerdown', handlePointerDown);
       containerElem.removeEventListener('pointermove', handlePointerMove);
+      containerElem.removeEventListener('click', handleClick);
       containerElem.removeEventListener('pointerleave', handlePointerLeave);
       window.removeEventListener('resize', handleResize);
       resizeObserver.disconnect();

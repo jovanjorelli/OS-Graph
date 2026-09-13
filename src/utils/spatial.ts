@@ -38,6 +38,7 @@ export class SpatialNodeGrid {
 
     let closest: OperatingSystemNode | null = null;
     let minDist = maxDist;
+    let minDistSq = maxDist * maxDist;
 
     for (let cx = minCx; cx <= maxCx; cx++) {
       for (let cy = minCy; cy <= maxCy; cy++) {
@@ -49,9 +50,10 @@ export class SpatialNodeGrid {
           if (Math.abs(dx) >= minDist) continue;
           const dy = (n.y || 0) - y;
           if (Math.abs(dy) >= minDist) continue;
-          const dist = Math.hypot(dx, dy);
-          if (dist < minDist) {
-            minDist = dist;
+          const distSq = dx * dx + dy * dy;
+          if (distSq < minDistSq) {
+            minDistSq = distSq;
+            minDist = Math.sqrt(minDistSq);
             closest = n;
           }
         }
