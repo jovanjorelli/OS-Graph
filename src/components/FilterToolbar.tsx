@@ -1,0 +1,139 @@
+import React from 'react';
+import { Filter, RotateCcw, Calendar } from 'lucide-react';
+import type { OperatingSystemFamily } from '../types/os';
+import { FAMILY_NEON_PALETTE, FAMILY_NAMES } from '../utils/colors';
+
+interface FilterToolbarProps {
+  selectedFamilies: OperatingSystemFamily[];
+  onToggleFamily: (family: OperatingSystemFamily) => void;
+  onClearFamilies: () => void;
+  yearRange: [number, number];
+  onYearChange: (range: [number, number]) => void;
+  significanceTier: number;
+  onSignificanceTierChange: (tier: number) => void;
+  visibleCount: number;
+  totalCount: number;
+}
+
+const ALL_FAMILIES: OperatingSystemFamily[] = [
+  'unix',
+  'bsd',
+  'linux',
+  'windows',
+  'apple',
+  'independent',
+];
+
+export const FilterToolbar: React.FC<FilterToolbarProps> = ({
+  selectedFamilies,
+  onToggleFamily,
+  onClearFamilies,
+  yearRange,
+  onYearChange,
+  significanceTier,
+  onSignificanceTierChange,
+  visibleCount,
+  totalCount,
+}) => {
+  return (
+    <div className="flex flex-col gap-3.5 p-4 bg-neutral-950/95 backdrop-blur-2xl border border-neutral-800/90 rounded-2xl shadow-2xl text-xs select-none">
+      <div className="flex items-center justify-between pb-3 border-b border-neutral-800/80">
+        <div className="flex items-center space-x-2">
+          <Filter className="w-3.5 h-3.5 text-neutral-400" />
+          <span className="font-semibold text-neutral-100 text-xs tracking-tight">
+            Graph Filters
+          </span>
+        </div>
+        <div className="font-mono text-[11px] text-neutral-400 bg-neutral-900 px-2 py-0.5 rounded-md border border-neutral-800">
+          <span className="text-white font-semibold">{visibleCount.toLocaleString()}</span>
+          <span className="text-neutral-500"> / </span>
+          <span>{totalCount.toLocaleString()}</span>
+        </div>
+      </div>
+
+      <div className="space-y-1.5">
+        <div className="text-[10px] uppercase font-mono tracking-wider text-neutral-400">
+          Significance Threshold
+        </div>
+        <div className="grid grid-cols-3 gap-1 p-0.5 bg-neutral-900/80 rounded-xl border border-neutral-800 text-[11px] font-mono">
+          {([10, 5, 0] as const).map((tier) => (
+            <button
+              key={tier}
+              onClick={() => onSignificanceTierChange(tier)}
+              className={`py-1.5 px-2 rounded-lg transition-all active:scale-[0.98] text-center ${
+                significanceTier === tier
+                  ? 'bg-neutral-800 text-white font-medium shadow-sm'
+                  : 'text-neutral-400 hover:text-neutral-200'
+              }`}
+            >
+              {tier === 10 ? 'Major (10+)' : tier === 5 ? 'Notable (5+)' : 'All (0+)'}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="space-y-2">
+        <div className="flex items-center justify-between">
+          <span className="text-[10px] uppercase font-mono tracking-wider text-neutral-400">
+            Islands & Sectors
+          </span>
+          {selectedFamilies.length > 0 && (
+            <button
+              onClick={onClearFamilies}
+              className="flex items-center space-x-1 text-[10px] font-mono text-neutral-400 hover:text-white transition-colors"
+            >
+              <RotateCcw className="w-2.5 h-2.5" />
+              <span>Reset</span>
+            </button>
+          )}
+        </div>
+
+        <div className="grid grid-cols-2 gap-1.5">
+          {ALL_FAMILIES.map((family) => {
+            const isSelected = selectedFamilies.includes(family);
+            const palette = FAMILY_NEON_PALETTE[family];
+
+            return (
+              <button
+                key={family}
+                onClick={() => onToggleFamily(family)}
+                className={`flex items-center space-x-2 px-2.5 py-1.5 rounded-lg text-xs border transition-all active:scale-[0.98] ${
+                  isSelected
+                    ? 'bg-neutral-800/90 border-neutral-600 text-white font-medium shadow-sm'
+                    : 'bg-neutral-900/40 border-neutral-800/80 text-neutral-400 hover:text-white hover:bg-neutral-900'
+                }`}
+              >
+                <span
+                  className="w-2 h-2 rounded-full shrink-0"
+                  style={{ backgroundColor: palette.core }}
+                />
+                <span className="truncate">{FAMILY_NAMES[family]}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="pt-3 border-t border-neutral-800/80 space-y-1.5">
+        <div className="flex items-center justify-between text-[10px] font-mono text-neutral-400">
+          <span className="flex items-center space-x-1 uppercase tracking-wider">
+            <Calendar className="w-3 h-3 text-neutral-500" />
+            <span>Inception Era</span>
+          </span>
+          <span className="text-neutral-200 bg-neutral-900 px-1.5 py-0.5 rounded border border-neutral-800">
+            {yearRange[0]} — {yearRange[1]}
+          </span>
+        </div>
+        <input
+          type="range"
+          min={1969}
+          max={2026}
+          value={yearRange[0]}
+          onChange={(e) => onYearChange([Number(e.target.value), yearRange[1]])}
+          className="w-full accent-neutral-300 cursor-pointer h-1.5 bg-neutral-800 rounded-lg"
+          title="Earliest inception year"
+        />
+      </div>
+    </div>
+  );
+};

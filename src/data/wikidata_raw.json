@@ -1,0 +1,2702 @@
+[
+  {
+    "wikidataId": "Q4468382",
+    "name": "USU",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q7265581",
+    "name": "Magic Linux",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7269652",
+    "name": "Q7269652",
+    "basedOnWikidataId": "Q215273",
+    "basedOnName": "Q215273",
+    "inception": "2010-04-07T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q7563357",
+    "name": "Sorcerer",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4352139",
+    "name": "OpenMediaVault",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2009-01-01T00:00:00Z",
+    "developer": "Volker Theile",
+    "license": "GNU General Public License, version 3.0"
+  },
+  {
+    "wikidataId": "Q6070987",
+    "name": "PelicanHPC",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5850871",
+    "name": "Big Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "Q131940002",
+    "license": null
+  },
+  {
+    "wikidataId": "Q5976310",
+    "name": "Lihuen GNU/Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5011038",
+    "name": "CHAOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4894196",
+    "name": "Trinity Rescue Kit",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q5530908",
+    "name": "GendBuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "National Gendarmerie",
+    "license": null
+  },
+  {
+    "wikidataId": "Q4817373",
+    "name": "Atomix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4785310",
+    "name": "Arch Linux ARM",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4811777",
+    "name": "Asturix",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2009-02-25T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q7641715",
+    "name": "Sunwah Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4250964",
+    "name": "BlankOn",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2005-02-10T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5596708",
+    "name": "Granular Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2014-02-20T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5441120",
+    "name": "Fedora AOS",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5441127",
+    "name": "Fedora Legacy",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8364850",
+    "name": "Kali Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2013-03-13T00:00:00Z",
+    "developer": "OffSec",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q6155239",
+    "name": "Ufficio Zero",
+    "basedOnWikidataId": "Q324583",
+    "basedOnName": "PCLinuxOS",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q6155239",
+    "name": "Ufficio Zero",
+    "basedOnWikidataId": "Q18601928",
+    "basedOnName": "Devuan",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q6554743",
+    "name": "Linos",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5707044",
+    "name": "ArtistX",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4033560",
+    "name": "AgiliaLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4035563",
+    "name": "CAOS Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4040417",
+    "name": "Hardened Gentoo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4041393",
+    "name": "InfraLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4045003",
+    "name": "NUR Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5157351",
+    "name": "Compute Node Linux",
+    "basedOnWikidataId": "Q1759786",
+    "basedOnName": "SUSE Linux Enterprise Server",
+    "inception": null,
+    "developer": "Cray",
+    "license": null
+  },
+  {
+    "wikidataId": "Q5019035",
+    "name": "Caldera OpenLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "Caldera",
+    "license": null
+  },
+  {
+    "wikidataId": "Q4389742",
+    "name": "UserLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4655055",
+    "name": "AVLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4817963",
+    "name": "BRLix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4894818",
+    "name": "Berry Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5651787",
+    "name": "Wifislax",
+    "basedOnWikidataId": "Q337503",
+    "basedOnName": "Slax",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5137407",
+    "name": "Co-CreateLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5204345",
+    "name": "DAVIX",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5373640",
+    "name": "Emnix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5723969",
+    "name": "BeakOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5928470",
+    "name": "Jazz Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6003235",
+    "name": "Maryan Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6026061",
+    "name": "MagmaLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6167319",
+    "name": "Wifiway",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6168432",
+    "name": "X-Evian",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6375322",
+    "name": "KateOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6423015",
+    "name": "KnoppMyth",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6527254",
+    "name": "sharif linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6665943",
+    "name": "Loco Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8250779",
+    "name": "Bonzai Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7039337",
+    "name": "Roj Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7072672",
+    "name": "OLPC XS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7095729",
+    "name": "OpenAP",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7121205",
+    "name": "PXES",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7520636",
+    "name": "SimpleLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7572028",
+    "name": "Soyombo Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4169849",
+    "name": "Incognito",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q7784493",
+    "name": "Think Blue Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7855413",
+    "name": "Turkix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8041699",
+    "name": "xB Machine",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8072595",
+    "name": "ZipSlack",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4045245",
+    "name": "NetSecL OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q8251764",
+    "name": "BrazilFW",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8273295",
+    "name": "Debian-BR-CDD",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8355183",
+    "name": "DeveLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8030786",
+    "name": "Wombat OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q8561282",
+    "name": "Dizinha Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4895399",
+    "name": "Linkat",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-09-12T00:00:00Z",
+    "developer": "Generalitat of Catalonia",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q7825021",
+    "name": "TopologiLinux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q8273405",
+    "name": "Kalango Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5242953",
+    "name": "Qimo 4 Kids",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q7747455",
+    "name": "The Linux Schools Project",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4986655",
+    "name": "Buildix",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": null,
+    "developer": "ThoughtWorks",
+    "license": null
+  },
+  {
+    "wikidataId": "Q7236203",
+    "name": "PowerLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "IBM",
+    "license": null
+  },
+  {
+    "wikidataId": "Q7715973",
+    "name": "Q7715973",
+    "basedOnWikidataId": "Q3251801",
+    "basedOnName": "Q3251801",
+    "inception": "1993-08-16T00:00:00Z",
+    "developer": "The Debian Project",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q5523200",
+    "name": "Gargoyle",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2008-07-14T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q4036491",
+    "name": "ConnochaetOS",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": null,
+    "developer": "Henry Jensen",
+    "license": null
+  },
+  {
+    "wikidataId": "Q7855626",
+    "name": "TurnKey Linux Virtual Appliance Library",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4352139",
+    "name": "OpenMediaVault",
+    "basedOnWikidataId": "Q1328132",
+    "basedOnName": "TrueNAS",
+    "inception": "2009-01-01T00:00:00Z",
+    "developer": "Volker Theile",
+    "license": "GNU General Public License, version 3.0"
+  },
+  {
+    "wikidataId": "Q7886471",
+    "name": "Damn Vulnerable Linux",
+    "basedOnWikidataId": "Q192546",
+    "basedOnName": "Damn Small Linux",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4048537",
+    "name": "ROSA Linux",
+    "basedOnWikidataId": "Q173005",
+    "basedOnName": "Mandriva Linux",
+    "inception": "2010-12-01T00:00:00Z",
+    "developer": "LLC \"STC IT ROSA\"",
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q4032939",
+    "name": "ALT Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2001-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7642084",
+    "name": "SuperX",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5444395",
+    "name": "Fermi Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1998-08-31T00:00:00Z",
+    "developer": "Fermilab",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q5647621",
+    "name": "Qimo",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6155239",
+    "name": "Ufficio Zero",
+    "basedOnWikidataId": "Q3833137",
+    "basedOnName": "Linux Mint Debian Edition",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q4388577",
+    "name": "White Box Enterprise Linux",
+    "basedOnWikidataId": "Q215273",
+    "basedOnName": "Q215273",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q6081351",
+    "name": "Iskolinux",
+    "basedOnWikidataId": "Q584166",
+    "basedOnName": "BeatrIX",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4045922",
+    "name": "Openwall Project",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "Alexander Peslyak",
+    "license": null
+  },
+  {
+    "wikidataId": "Q4000262",
+    "name": "Tuga",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q8347839",
+    "name": "College Linux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q8197164",
+    "name": "Amber Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q5960443",
+    "name": "Kongoni GNU/Linux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": "2009-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4119321",
+    "name": "Ojuba Linux",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q4904810",
+    "name": "Bifrost",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1997-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q6155239",
+    "name": "Ufficio Zero",
+    "basedOnWikidataId": "Q2027",
+    "basedOnName": "Q2027",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q4250964",
+    "name": "BlankOn",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2005-02-10T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q4250964",
+    "name": "BlankOn",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": "2005-02-10T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q7876470",
+    "name": "UberStudent",
+    "basedOnWikidataId": "Q72688",
+    "basedOnName": "Xubuntu",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q4042991",
+    "name": "LinuX-gamers",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2705835",
+    "name": "Korora",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2531940",
+    "name": "Openmoko Linux",
+    "basedOnWikidataId": "Q130329",
+    "basedOnName": "Ångström distribution",
+    "inception": null,
+    "developer": "Openmoko",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2198778",
+    "name": "VLOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q1985042",
+    "name": "Runtu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3106495",
+    "name": "Pentoo",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": "2005-06-22T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3506749",
+    "name": "NimbleX",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2781110",
+    "name": "SHR",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2649553",
+    "name": "Musix GNU/Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2008-12-09T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2742192",
+    "name": "Parsix",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2373943",
+    "name": "Sabily",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2007-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2119623",
+    "name": "AliOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2011-07-28T00:00:00Z",
+    "developer": "Alibaba Group",
+    "license": null
+  },
+  {
+    "wikidataId": "Q2789701",
+    "name": "Nonux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3288541",
+    "name": "ZevenOS",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2548229",
+    "name": "Q2548229",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2472205",
+    "name": "Baltix",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": "2003-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3048410",
+    "name": "Eduknoppix",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3308694",
+    "name": "Parabola GNU/Linux-libre",
+    "basedOnWikidataId": "Q665683",
+    "basedOnName": "Linux-libre",
+    "inception": "2009-10-26T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2705297",
+    "name": "PUD",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2109608",
+    "name": "Freespire",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2006-04-24T00:00:00Z",
+    "developer": "Linspire",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2323888",
+    "name": "Tinfoil Hat Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "BSD licenses"
+  },
+  {
+    "wikidataId": "Q2288113",
+    "name": "YOPER",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2389043",
+    "name": "LinuxMCE",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3048267",
+    "name": "EduLinux",
+    "basedOnWikidataId": "Q2878481",
+    "basedOnName": "K12LTSP",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2464627",
+    "name": "TinyMe",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3285992",
+    "name": "Q3285992",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": null,
+    "developer": "Philip Müller",
+    "license": "free software"
+  },
+  {
+    "wikidataId": "Q2564250",
+    "name": "Gentoox",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2574742",
+    "name": "Slackintosh",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2708458",
+    "name": "Slamd64",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2715848",
+    "name": "ALinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2826956",
+    "name": "Agnula",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2852310",
+    "name": "Anonym.OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2878481",
+    "name": "K12LTSP",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2880247",
+    "name": "IsiX-OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3107487",
+    "name": "eZeY",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q3022169",
+    "name": "DemoLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3046603",
+    "name": "EasyOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3124727",
+    "name": "HAL91",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3179557",
+    "name": "Super OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3183158",
+    "name": "Jollix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3241704",
+    "name": "LinuxConsole",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3247464",
+    "name": "PingOO",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3257609",
+    "name": "Lycoris Desktop/LX",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3276238",
+    "name": "Vine Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3351552",
+    "name": "Debris linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3355028",
+    "name": "Oralux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3360623",
+    "name": "Paipix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3491223",
+    "name": "Devil-Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3500361",
+    "name": "Stresslinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3529855",
+    "name": "Flash Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2816466",
+    "name": "3CX Phone System",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": "end-user license agreement"
+  },
+  {
+    "wikidataId": "Q2720305",
+    "name": "SUSE Linux Enterprise Desktop",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "SUSE",
+    "license": "GNU Lesser General Public License"
+  },
+  {
+    "wikidataId": "Q3127079",
+    "name": "Hanthana Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2526080",
+    "name": "Bridge Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2801412",
+    "name": "Tails",
+    "basedOnWikidataId": "Q1343860",
+    "basedOnName": "GNOME Shell",
+    "inception": null,
+    "developer": "The Tor Project, Inc",
+    "license": "Q27016754"
+  },
+  {
+    "wikidataId": "Q3434187",
+    "name": "Elbuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2109608",
+    "name": "Freespire",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2006-04-24T00:00:00Z",
+    "developer": "Linspire",
+    "license": "proprietary license"
+  },
+  {
+    "wikidataId": "Q2567445",
+    "name": "SmoothWall",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q3191808",
+    "name": "Kaella",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": "2004-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2068216",
+    "name": "Adamantix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2472205",
+    "name": "Baltix",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2003-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2705835",
+    "name": "Korora",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2072679",
+    "name": "PING",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2295729",
+    "name": "Gnoppix",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3345993",
+    "name": "NuTyX",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2715168",
+    "name": "Kurumin",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": null,
+    "developer": "Carlos Morimoto",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2040193",
+    "name": "MCC Interim Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1992-02-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2109608",
+    "name": "Freespire",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-04-24T00:00:00Z",
+    "developer": "Linspire",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3006728",
+    "name": "Cubuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3519867",
+    "name": "Bharat Operating System Solutions",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": "Centre for Development of Advanced Computing",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2801412",
+    "name": "Tails",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": "The Tor Project, Inc",
+    "license": "Q27016754"
+  },
+  {
+    "wikidataId": "Q2625341",
+    "name": "Zorin OS",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2009-07-01T00:00:00Z",
+    "developer": "Zorin Technology Group Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3392061",
+    "name": "Platypux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2632496",
+    "name": "Fuduntu",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2629500",
+    "name": "Ubuntu Christian Edition",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "user community",
+    "license": null
+  },
+  {
+    "wikidataId": "Q3482300",
+    "name": "Shinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "free software license"
+  },
+  {
+    "wikidataId": "Q2740628",
+    "name": "Ultima Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2745476",
+    "name": "DSLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3191877",
+    "name": "KahelOS",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": "2009-09-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2457713",
+    "name": "Chakra Linux",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": "2008-12-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3109620",
+    "name": "Imagineos",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2170170",
+    "name": "Jlime",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3486724",
+    "name": "Slis",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1998-12-01T00:00:00Z",
+    "developer": "Q87760926",
+    "license": null
+  },
+  {
+    "wikidataId": "Q3048267",
+    "name": "EduLinux",
+    "basedOnWikidataId": "Q48267",
+    "basedOnName": "Fedora Linux",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2472814",
+    "name": "Ubuntu Privacy Remix",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2978754",
+    "name": "ClearOS",
+    "basedOnWikidataId": "Q215273",
+    "basedOnName": "Q215273",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3037887",
+    "name": "DoudouLinux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q2109608",
+    "name": "Freespire",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-04-24T00:00:00Z",
+    "developer": "Linspire",
+    "license": "proprietary license"
+  },
+  {
+    "wikidataId": "Q2564216",
+    "name": "U-Lite",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2992499",
+    "name": "Familiar Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2000-05-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3090978",
+    "name": "Funtoo Linux",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": "2008-01-01T00:00:00Z",
+    "developer": "Daniel Robbins",
+    "license": null
+  },
+  {
+    "wikidataId": "Q2595413",
+    "name": "Ubuntu Touch",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "UBports",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2843636",
+    "name": "Huayra Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3288541",
+    "name": "ZevenOS",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3247444",
+    "name": "NepaLinux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2005-01-01T00:00:00Z",
+    "developer": "Madan Puraskar Pustakalaya",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2871730",
+    "name": "Augustux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2280829",
+    "name": "Freeduc-cd",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "UNESCO",
+    "license": null
+  },
+  {
+    "wikidataId": "Q3308694",
+    "name": "Parabola GNU/Linux-libre",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": "2009-10-26T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q3011393",
+    "name": "DNALinux",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q3250266",
+    "name": "JeOS",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2801412",
+    "name": "Tails",
+    "basedOnWikidataId": "Q4169849",
+    "basedOnName": "Incognito",
+    "inception": null,
+    "developer": "The Tor Project, Inc",
+    "license": "Q27016754"
+  },
+  {
+    "wikidataId": "Q192546",
+    "name": "Damn Small Linux",
+    "basedOnWikidataId": "Q102410",
+    "basedOnName": "Knoppix",
+    "inception": "2003-06-26T00:00:00Z",
+    "developer": "John Andrews",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q129145",
+    "name": "Deepin",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2004-02-28T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q381",
+    "name": "Q381",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2004-10-20T00:00:00Z",
+    "developer": "Canonical Ltd.",
+    "license": null
+  },
+  {
+    "wikidataId": "Q11983",
+    "name": "CrunchBang Linux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2008-11-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q646983",
+    "name": "Red Star OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2014-07-01T00:00:00Z",
+    "developer": "Korea Computer Center",
+    "license": null
+  },
+  {
+    "wikidataId": "Q568234",
+    "name": "Linspire",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2001-08-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q241874",
+    "name": "MeeGo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2010-05-26T00:00:00Z",
+    "developer": "Intel",
+    "license": "GNU General Public License, version 2.0 or later"
+  },
+  {
+    "wikidataId": "Q81229",
+    "name": "Q81229",
+    "basedOnWikidataId": "Q3595671",
+    "basedOnName": "Mer",
+    "inception": null,
+    "developer": "Jolla",
+    "license": null
+  },
+  {
+    "wikidataId": "Q344376",
+    "name": "Proxmox Virtual Environment",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2008-04-15T00:00:00Z",
+    "developer": "Proxmox Server Solutions GmbH",
+    "license": "Q27017232"
+  },
+  {
+    "wikidataId": "Q39238",
+    "name": "Q39238",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2008-10-30T00:00:00Z",
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q636372",
+    "name": "Aurox",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q130329",
+    "name": "Ångström distribution",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Foundation",
+    "license": "Mozilla Public License"
+  },
+  {
+    "wikidataId": "Q181077",
+    "name": "Jolicloud",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2009-01-01T00:00:00Z",
+    "developer": null,
+    "license": "proprietary license"
+  },
+  {
+    "wikidataId": "Q307859",
+    "name": "MoviX",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2003-09-25T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q152242",
+    "name": "Yocto Project",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q594397",
+    "name": "Red Flag Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1999-08-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q239749",
+    "name": "Maemo",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": "Nokia",
+    "license": null
+  },
+  {
+    "wikidataId": "Q191317",
+    "name": "Zenwalk",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": "2005-03-25T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q102410",
+    "name": "Knoppix",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2000-09-30T00:00:00Z",
+    "developer": "Klaus Knopper",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q46094",
+    "name": "Oracle Linux",
+    "basedOnWikidataId": "Q215273",
+    "basedOnName": "Q215273",
+    "inception": "2006-10-26T00:00:00Z",
+    "developer": "Oracle Corporation",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q58436",
+    "name": "Q58436",
+    "basedOnWikidataId": "Q1757001",
+    "basedOnName": "Softlanding Linux System",
+    "inception": "1993-07-16T00:00:00Z",
+    "developer": "Patrick Volkerding",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q622279",
+    "name": "aptosid",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2006-09-11T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q284825",
+    "name": "μClinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q286005",
+    "name": "tomsrtbt",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q72688",
+    "name": "Xubuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-06-23T00:00:00Z",
+    "developer": "Canonical Ltd.",
+    "license": null
+  },
+  {
+    "wikidataId": "Q72688",
+    "name": "Xubuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-06-23T00:00:00Z",
+    "developer": "Ubuntu Foundation",
+    "license": null
+  },
+  {
+    "wikidataId": "Q338953",
+    "name": "Access Linux Platform",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q179612",
+    "name": "Mobilinux",
+    "basedOnWikidataId": "Q388",
+    "basedOnName": "Q388",
+    "inception": null,
+    "developer": "MontaVista",
+    "license": null
+  },
+  {
+    "wikidataId": "Q185576",
+    "name": "Q185576",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2002-03-11T00:00:00Z",
+    "developer": "Felix Yan",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q571041",
+    "name": "SystemRescue",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q584166",
+    "name": "BeatrIX",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q306085",
+    "name": "iPodLinux",
+    "basedOnWikidataId": "Q284825",
+    "basedOnName": "μClinux",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q610861",
+    "name": "Knopperdisk",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2000-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q600892",
+    "name": "Kilinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q613055",
+    "name": "Impi Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q375150",
+    "name": "Gobuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q79534",
+    "name": "ChromiumOS",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": null,
+    "developer": "Google",
+    "license": "BSD licenses"
+  },
+  {
+    "wikidataId": "Q674473",
+    "name": "Arktur-Schulserver",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q251031",
+    "name": "ELinOS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "SYSGO",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q387950",
+    "name": "Debian Pure Blend",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q581676",
+    "name": "64 Studio",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2006-08-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q241874",
+    "name": "MeeGo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2010-05-26T00:00:00Z",
+    "developer": "Novell",
+    "license": "GNU General Public License, version 2.0 or later"
+  },
+  {
+    "wikidataId": "Q185576",
+    "name": "Q185576",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2002-03-11T00:00:00Z",
+    "developer": "Aaron Griffin",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q185576",
+    "name": "Q185576",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2002-03-11T00:00:00Z",
+    "developer": "Anatol Pomozov",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q79531",
+    "name": "ChromeOS",
+    "basedOnWikidataId": "Q79534",
+    "basedOnName": "ChromiumOS",
+    "inception": "2011-06-15T00:00:00Z",
+    "developer": "Google",
+    "license": "proprietary license"
+  },
+  {
+    "wikidataId": "Q39328",
+    "name": "Ubuntu Netbook Edition",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q433450",
+    "name": "ASPLinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "ASPLinux",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q640467",
+    "name": "Sabayon Linux",
+    "basedOnWikidataId": "Q170378",
+    "basedOnName": "Gentoo Linux",
+    "inception": "2005-11-28T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q306004",
+    "name": "gOS",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2007-11-01T00:00:00Z",
+    "developer": null,
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported"
+  },
+  {
+    "wikidataId": "Q528563",
+    "name": "Trinux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License, version 2.0"
+  },
+  {
+    "wikidataId": "Q309531",
+    "name": "Grml",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q310075",
+    "name": "Jurix",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1994-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q568084",
+    "name": "Quantian",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": "Dirk Eddelbuettel",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q11250",
+    "name": "Q11250",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2005-04-08T00:00:00Z",
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q48267",
+    "name": "Fedora Linux",
+    "basedOnWikidataId": "Q220182",
+    "basedOnName": "Red Hat Linux",
+    "inception": "2002-01-01T00:00:00Z",
+    "developer": "IBM",
+    "license": "MIT License"
+  },
+  {
+    "wikidataId": "Q191297",
+    "name": "Zentyal",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2009-07-15T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q305340",
+    "name": "Frugalware Linux",
+    "basedOnWikidataId": "Q185576",
+    "basedOnName": "Q185576",
+    "inception": "2004-11-02T00:00:00Z",
+    "developer": "Miklós Vajna",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q214390",
+    "name": "Ubuntu Studio",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q214390",
+    "name": "Ubuntu Studio",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": "Ubuntu Foundation",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q215273",
+    "name": "Q215273",
+    "basedOnWikidataId": "Q119845798",
+    "basedOnName": "CentOS Stream",
+    "inception": "2000-02-22T00:00:00Z",
+    "developer": "Red Hat",
+    "license": null
+  },
+  {
+    "wikidataId": "Q226113",
+    "name": "Conectiva",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1995-01-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q442744",
+    "name": "LiMux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q578713",
+    "name": "Q578713",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2004-06-20T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q185576",
+    "name": "Q185576",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2002-03-11T00:00:00Z",
+    "developer": "Allan McRae",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q220182",
+    "name": "Red Hat Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1995-01-01T00:00:00Z",
+    "developer": "Red Hat",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q309494",
+    "name": "Dynebolic",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Corporation",
+    "license": "Apache License"
+  },
+  {
+    "wikidataId": "Q301764",
+    "name": "Univention Corporate Server",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": "Q1131681"
+  },
+  {
+    "wikidataId": "Q39208",
+    "name": "Q39208",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2005-01-01T00:00:00Z",
+    "developer": "Canonical Ltd.",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q322659",
+    "name": "Dragora GNU/Linux-libre",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2009-03-13T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Corporation",
+    "license": "free license"
+  },
+  {
+    "wikidataId": "Q319307",
+    "name": "BackTrack",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q207542",
+    "name": "Q207542",
+    "basedOnWikidataId": "Q4035563",
+    "basedOnName": "CAOS Linux",
+    "inception": "2002-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q170378",
+    "name": "Gentoo Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2002-03-31T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q48267",
+    "name": "Fedora Linux",
+    "basedOnWikidataId": "Q220182",
+    "basedOnName": "Red Hat Linux",
+    "inception": "2002-01-01T00:00:00Z",
+    "developer": "Red Hat",
+    "license": "MIT License"
+  },
+  {
+    "wikidataId": "Q337503",
+    "name": "Slax",
+    "basedOnWikidataId": "Q58436",
+    "basedOnName": "Q58436",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q241874",
+    "name": "MeeGo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2010-05-26T00:00:00Z",
+    "developer": "Nokia",
+    "license": "GNU General Public License, version 2.0 or later"
+  },
+  {
+    "wikidataId": "Q173005",
+    "name": "Mandriva Linux",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "1998-07-23T00:00:00Z",
+    "developer": "Mandriva",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q290794",
+    "name": "fli4l",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2000-04-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q48267",
+    "name": "Fedora Linux",
+    "basedOnWikidataId": "Q220182",
+    "basedOnName": "Red Hat Linux",
+    "inception": "2002-01-01T00:00:00Z",
+    "developer": "Fedora Project",
+    "license": "MIT License"
+  },
+  {
+    "wikidataId": "Q307677",
+    "name": "Q307677",
+    "basedOnWikidataId": "Q14581",
+    "basedOnName": "Q14581",
+    "inception": null,
+    "developer": "Apple Inc.",
+    "license": "Apple Public Source License"
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Foundation",
+    "license": "Apache License"
+  },
+  {
+    "wikidataId": "Q207542",
+    "name": "Q207542",
+    "basedOnWikidataId": "Q215273",
+    "basedOnName": "Q215273",
+    "inception": "2002-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q39269",
+    "name": "Q39269",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2027",
+    "name": "Q2027",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": "2006-08-27T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q241874",
+    "name": "MeeGo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2010-05-26T00:00:00Z",
+    "developer": "Linux Foundation",
+    "license": "GNU General Public License, version 2.0 or later"
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Corporation",
+    "license": "Mozilla Public License"
+  },
+  {
+    "wikidataId": "Q250918",
+    "name": "Tomato",
+    "basedOnWikidataId": "Q5957610",
+    "basedOnName": "HyperWRT",
+    "inception": "2008-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q241874",
+    "name": "MeeGo",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2010-05-26T00:00:00Z",
+    "developer": "AMD",
+    "license": "GNU General Public License, version 2.0 or later"
+  },
+  {
+    "wikidataId": "Q16691",
+    "name": "Q16691",
+    "basedOnWikidataId": "Q10513863",
+    "basedOnName": "Q10513863",
+    "inception": "2005-08-09T00:00:00Z",
+    "developer": "openSUSE Project",
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q617038",
+    "name": "Q617038",
+    "basedOnWikidataId": "Q1640316",
+    "basedOnName": "Morphix",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q693681",
+    "name": "Fluxbuntu",
+    "basedOnWikidataId": "Q381",
+    "basedOnName": "Q381",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q380663",
+    "name": "Wienux",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": null,
+    "developer": null,
+    "license": null
+  },
+  {
+    "wikidataId": "Q550303",
+    "name": "Firefox OS",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2013-02-21T00:00:00Z",
+    "developer": "Mozilla Foundation",
+    "license": "free license"
+  },
+  {
+    "wikidataId": "Q25500",
+    "name": "Galsoft Linux",
+    "basedOnWikidataId": "Q39238",
+    "basedOnName": "Q39238",
+    "inception": null,
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q2027",
+    "name": "Q2027",
+    "basedOnWikidataId": "Q11250",
+    "basedOnName": "Q11250",
+    "inception": "2006-08-27T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q305901",
+    "name": "gNewSense",
+    "basedOnWikidataId": "Q7715973",
+    "basedOnName": "Q7715973",
+    "inception": "2006-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q596710",
+    "name": "Xandros",
+    "basedOnWikidataId": null,
+    "basedOnName": null,
+    "inception": "2001-01-01T00:00:00Z",
+    "developer": null,
+    "license": "GNU General Public License"
+  },
+  {
+    "wikidataId": "Q324583",
+    "name": "PCLinuxOS",
+    "basedOnWikidataId": "Q173005",
+    "basedOnName": "Mandriva Linux",
+    "inception": "2003-10-01T00:00:00Z",
+    "developer": null,
+    "license": null
+  }
+]
