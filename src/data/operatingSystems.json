@@ -1,0 +1,4065 @@
+{
+  "nodes": [
+    {
+      "id": "linux-kernel",
+      "name": "Linux Kernel",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 1991,
+      "developer": "Linus Torvalds & Linux Kernel Community",
+      "license": "GPL-2.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM",
+        "ARM64",
+        "RISC-V",
+        "PowerPC",
+        "MIPS",
+        "s390x"
+      ],
+      "wikipediaTitle": "Linux_kernel",
+      "wikidataId": "Q14579",
+      "significance": 5,
+      "x": 3900,
+      "y": 2100,
+      "fx": 3900,
+      "fy": 2100,
+      "description": "Linux Kernel is an actively maintained linux operating system distribution originating in 1991. Developed primarily by Linus Torvalds & Linux Kernel Community, it features a monolithic kernel design (Linux) targeting x86-64, ARM, ARM64, RISC-V, PowerPC, MIPS, s390x architectures under GPL-2.0.",
+      "sitelinks": 69
+    },
+    {
+      "id": "unix",
+      "name": "Research Unix",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "Unix Kernel",
+      "inceptionYear": 1969,
+      "developer": "Bell Labs (Ken Thompson & Dennis Ritchie)",
+      "license": "Proprietary / Caldera Open Source",
+      "status": "historic",
+      "architectures": [
+        "PDP-7",
+        "PDP-11",
+        "VAX"
+      ],
+      "wikipediaTitle": "Research_Unix",
+      "wikidataId": "Q11358",
+      "significance": 5,
+      "x": 0,
+      "y": -3900,
+      "fx": 0,
+      "fy": -3900,
+      "description": "Research Unix is an historic research & commercial unix system originating in 1969. Developed primarily by Bell Labs (Ken Thompson & Dennis Ritchie), it features a monolithic kernel design (Unix Kernel) targeting PDP-7, PDP-11, VAX architectures under Proprietary / Caldera Open Source.",
+      "sitelinks": 151
+    },
+    {
+      "id": "debian",
+      "name": "Debian GNU/Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 1993,
+      "developer": "Ian Murdock & Debian Project",
+      "license": "DFSG / GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V",
+        "MIPS",
+        "PowerPC",
+        "s390x"
+      ],
+      "wikipediaTitle": "Debian",
+      "wikidataId": "Q79352",
+      "significance": 5,
+      "x": 4013,
+      "y": 2165,
+      "fx": 4013,
+      "fy": 2165,
+      "description": "Debian GNU/Linux is an actively maintained linux operating system distribution originating in 1993. Developed primarily by Ian Murdock & Debian Project, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, RISC-V, MIPS, PowerPC, s390x architectures under DFSG / GPL.",
+      "sitelinks": 37
+    },
+    {
+      "id": "rhel",
+      "name": "Red Hat Enterprise Linux (RHEL)",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2002,
+      "developer": "Red Hat / IBM",
+      "license": "GPL & Commercial Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "PowerPC",
+        "s390x"
+      ],
+      "wikipediaTitle": "Red_Hat_Enterprise_Linux",
+      "wikidataId": "Q170588",
+      "significance": 5,
+      "x": 3787,
+      "y": 2035,
+      "fx": 3787,
+      "fy": 2035,
+      "description": "Red Hat Enterprise Linux (RHEL) is an actively maintained enterprise server distribution originating in 2002. Developed primarily by Red Hat / IBM, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, PowerPC, s390x architectures under GPL & Commercial Proprietary.",
+      "sitelinks": 67
+    },
+    {
+      "id": "ubuntu",
+      "name": "Ubuntu",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2004,
+      "developer": "Canonical Ltd. & Community",
+      "license": "GPL & Various Open Source",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V",
+        "s390x"
+      ],
+      "wikipediaTitle": "Ubuntu",
+      "wikidataId": "Q388",
+      "significance": 5,
+      "x": 4013,
+      "y": 2295,
+      "fx": 4013,
+      "fy": 2295,
+      "description": "Ubuntu is an actively maintained linux operating system distribution originating in 2004. Developed primarily by Canonical Ltd. & Community, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, RISC-V, s390x architectures under GPL & Various Open Source.",
+      "sitelinks": 200
+    },
+    {
+      "id": "macos-sonoma",
+      "name": "macOS Sonoma / Sequoia",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "XNU (Apple Silicon)",
+      "inceptionYear": 2023,
+      "developer": "Apple Inc.",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "Apple Silicon (ARM64)",
+        "x86-64"
+      ],
+      "wikipediaTitle": "MacOS_Sonoma",
+      "wikidataId": "Q119104052",
+      "significance": 5,
+      "x": -3794,
+      "y": -1557,
+      "fx": -3794,
+      "fy": -1557,
+      "description": "macOS Sonoma / Sequoia is an actively maintained apple macos / darwin architecture originating in 2023. Developed primarily by Apple Inc., it features a hybrid kernel design (XNU (Apple Silicon)) targeting Apple Silicon (ARM64), x86-64 architectures under Proprietary.",
+      "sitelinks": 110
+    },
+    {
+      "id": "bsd-44-lite",
+      "name": "4.4BSD-Lite",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "BSD Kernel (unencumbered)",
+      "inceptionYear": 1994,
+      "developer": "CSRG (UC Berkeley)",
+      "license": "BSD License",
+      "status": "historic",
+      "architectures": [
+        "VAX",
+        "SPARC",
+        "x86",
+        "HP 9000"
+      ],
+      "wikipediaTitle": "Berkeley_Software_Distribution",
+      "wikidataId": "Q34264",
+      "significance": 5,
+      "x": 3900,
+      "y": -1500,
+      "fx": 3900,
+      "fy": -1500,
+      "description": "4.4BSD-Lite is an historic berkeley software distribution derivative originating in 1994. Developed primarily by CSRG (UC Berkeley), it features a monolithic kernel design (BSD Kernel (unencumbered)) targeting VAX, SPARC, x86, HP 9000 architectures under BSD License.",
+      "sitelinks": 75
+    },
+    {
+      "id": "mach",
+      "name": "Mach Microkernel",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "Mach",
+      "inceptionYear": 1985,
+      "developer": "Carnegie Mellon University",
+      "license": "Carnegie Mellon License",
+      "status": "historic",
+      "architectures": [
+        "VAX",
+        "68000",
+        "x86",
+        "SPARC",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "Mach_(kernel)",
+      "wikidataId": "Q593897",
+      "significance": 5,
+      "x": 162,
+      "y": 4500,
+      "fx": 162,
+      "fy": 4500,
+      "description": "Mach Microkernel is an historic microkernel operating system originating in 1985. Developed primarily by Carnegie Mellon University, it features a microkernel kernel design (Mach) targeting VAX, 68000, x86, SPARC, PowerPC architectures under Carnegie Mellon License.",
+      "sitelinks": 35
+    },
+    {
+      "id": "fedora",
+      "name": "Fedora",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2003,
+      "developer": "Fedora Project / Red Hat",
+      "license": "GPL & Various Open Source",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Fedora_Linux",
+      "wikidataId": "Q48263",
+      "significance": 5,
+      "x": 4095,
+      "y": 2213,
+      "fx": 4095,
+      "fy": 2213,
+      "description": "Fedora is an actively maintained linux operating system distribution originating in 2003. Developed primarily by Fedora Project / Red Hat, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL & Various Open Source.",
+      "sitelinks": 85
+    },
+    {
+      "id": "unix-system-v",
+      "name": "UNIX System V",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "System V Kernel",
+      "inceptionYear": 1983,
+      "developer": "AT&T Technologies",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "VAX",
+        "SPARC",
+        "68000"
+      ],
+      "wikipediaTitle": "UNIX_System_V",
+      "wikidataId": "Q849495",
+      "significance": 5,
+      "x": 140,
+      "y": -3900,
+      "fx": 140,
+      "fy": -3900,
+      "description": "UNIX System V is an historic research & commercial unix system originating in 1983. Developed primarily by AT&T Technologies, it features a monolithic kernel design (System V Kernel) targeting x86, VAX, SPARC, 68000 architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "win-10",
+      "name": "Windows 10",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 10.0",
+      "inceptionYear": 2015,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Windows_10",
+      "wikidataId": "Q18168774",
+      "significance": 5,
+      "x": -3606,
+      "y": 2100,
+      "fx": -3606,
+      "fy": 2100,
+      "description": "Windows 10 is an actively maintained windows desktop operating system originating in 2015. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 10.0) targeting x86, x86-64, ARM64 architectures under Proprietary.",
+      "sitelinks": 99
+    },
+    {
+      "id": "classic-mac-os",
+      "name": "Classic Mac OS (System 1)",
+      "family": "apple",
+      "kernelType": "simple",
+      "kernelName": "Macintosh System Software",
+      "inceptionYear": 1984,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "Motorola 68000"
+      ],
+      "wikipediaTitle": "Classic_Mac_OS",
+      "wikidataId": "Q43627",
+      "significance": 5,
+      "x": -3900,
+      "y": -1500,
+      "fx": -3900,
+      "fy": -1500,
+      "description": "Classic Mac OS (System 1) is an historic classic macintosh system originating in 1984. Developed primarily by Apple Computer, it features a simple kernel design (Macintosh System Software) targeting Motorola 68000 architectures under Proprietary.",
+      "sitelinks": 68
+    },
+    {
+      "id": "win-nt-31",
+      "name": "Windows NT 3.1",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel",
+      "inceptionYear": 1993,
+      "developer": "Microsoft (led by Dave Cutler)",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "MIPS",
+        "Alpha"
+      ],
+      "wikipediaTitle": "Windows_NT_3.1",
+      "wikidataId": "Q858358",
+      "significance": 5,
+      "x": -3732,
+      "y": 2100,
+      "fx": -3732,
+      "fy": 2100,
+      "description": "Windows NT 3.1 is an historic windows nt architecture originating in 1993. Developed primarily by Microsoft (led by Dave Cutler), it features a hybrid kernel design (Windows NT Kernel) targeting x86, MIPS, Alpha architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "gnu",
+      "name": "GNU System",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "GNU Hurd",
+      "inceptionYear": 1983,
+      "developer": "Richard Stallman & Free Software Foundation",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "GNU",
+      "wikidataId": "Q44262",
+      "significance": 5,
+      "x": 0,
+      "y": 4500,
+      "fx": 0,
+      "fy": 4500,
+      "description": "GNU System is an actively maintained microkernel operating system originating in 1983. Developed primarily by Richard Stallman & Free Software Foundation, it features a microkernel kernel design (GNU Hurd) targeting x86 architectures under GPL.",
+      "sitelinks": 83
+    },
+    {
+      "id": "win-95",
+      "name": "Windows 95",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Virtual Machine Manager (VMM32)",
+      "inceptionYear": 1995,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86 (32-bit)"
+      ],
+      "wikipediaTitle": "Windows_95",
+      "wikidataId": "Q83370",
+      "significance": 5,
+      "x": -3900,
+      "y": 2268,
+      "fx": -3900,
+      "fy": 2268,
+      "description": "Windows 95 is an historic windows desktop operating system originating in 1995. Developed primarily by Microsoft, it features a monolithic kernel design (Virtual Machine Manager (VMM32)) targeting x86 (32-bit) architectures under Proprietary.",
+      "sitelinks": 81
+    },
+    {
+      "id": "red-hat-linux",
+      "name": "Red Hat Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 1994,
+      "developer": "Red Hat (Marc Ewing & Bob Young)",
+      "license": "GPL",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "Alpha",
+        "SPARC"
+      ],
+      "wikipediaTitle": "Red_Hat_Linux",
+      "wikidataId": "Q483017",
+      "significance": 5,
+      "x": 3787,
+      "y": 2165,
+      "fx": 3787,
+      "fy": 2165,
+      "description": "Red Hat Linux is an historic linux operating system distribution originating in 1994. Developed primarily by Red Hat (Marc Ewing & Bob Young), it features a monolithic kernel design (Linux) targeting x86, Alpha, SPARC architectures under GPL.",
+      "sitelinks": 53
+    },
+    {
+      "id": "nextstep",
+      "name": "NeXTSTEP",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "Mach + BSD layer",
+      "inceptionYear": 1989,
+      "developer": "NeXT (Steve Jobs)",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "68000",
+        "x86",
+        "SPARC",
+        "PA-RISC"
+      ],
+      "wikipediaTitle": "NeXTSTEP",
+      "wikidataId": "Q216178",
+      "significance": 5,
+      "x": -3904,
+      "y": -1380,
+      "fx": -3904,
+      "fy": -1380,
+      "description": "NeXTSTEP is an historic mach / nextstep unix hybrid originating in 1989. Developed primarily by NeXT (Steve Jobs), it features a hybrid kernel design (Mach + BSD layer) targeting 68000, x86, SPARC, PA-RISC architectures under Proprietary.",
+      "sitelinks": 42
+    },
+    {
+      "id": "minix",
+      "name": "MINIX",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "MINIX Microkernel",
+      "inceptionYear": 1987,
+      "developer": "Andrew S. Tanenbaum",
+      "license": "BSD 3-Clause",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "ARM"
+      ],
+      "wikipediaTitle": "MINIX",
+      "wikidataId": "Q187895",
+      "significance": 5,
+      "x": 81,
+      "y": 4645,
+      "fx": 81,
+      "fy": 4645,
+      "description": "MINIX is an actively maintained microkernel operating system originating in 1987. Developed primarily by Andrew S. Tanenbaum, it features a microkernel kernel design (MINIX Microkernel) targeting x86, ARM architectures under BSD 3-Clause.",
+      "sitelinks": 73
+    },
+    {
+      "id": "arch-linux",
+      "name": "Arch Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2002,
+      "developer": "Judd Vinet & Arch Linux Team",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Arch_Linux",
+      "wikidataId": "Q185585",
+      "significance": 5,
+      "x": 3900,
+      "y": 1970,
+      "fx": 3900,
+      "fy": 1970,
+      "description": "Arch Linux is an actively maintained linux operating system distribution originating in 2002. Developed primarily by Judd Vinet & Arch Linux Team, it features a monolithic kernel design (Linux) targeting x86-64 architectures under GPL.",
+      "sitelinks": 35
+    },
+    {
+      "id": "win-xp",
+      "name": "Windows XP",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 5.1",
+      "inceptionYear": 2001,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "IA-64"
+      ],
+      "wikipediaTitle": "Windows_XP",
+      "wikidataId": "Q11248",
+      "significance": 5,
+      "x": -4068,
+      "y": 2100,
+      "fx": -4068,
+      "fy": 2100,
+      "description": "Windows XP is an historic windows desktop operating system originating in 2001. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 5.1) targeting x86, x86-64, IA-64 architectures under Proprietary.",
+      "sitelinks": 98
+    },
+    {
+      "id": "ms-dos",
+      "name": "MS-DOS",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "MSDOS.SYS",
+      "inceptionYear": 1981,
+      "developer": "Microsoft",
+      "license": "Proprietary / MIT (Source released)",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "MS-DOS",
+      "wikidataId": "Q483132",
+      "significance": 5,
+      "x": -3900,
+      "y": 2100,
+      "fx": -3900,
+      "fy": 2100,
+      "description": "MS-DOS is an historic disk operating system (dos) originating in 1981. Developed primarily by Microsoft, it features a monolithic kernel design (MSDOS.SYS) targeting x86 architectures under Proprietary / MIT (Source released).",
+      "sitelinks": 77
+    },
+    {
+      "id": "win-7",
+      "name": "Windows 7",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 6.1",
+      "inceptionYear": 2009,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_7",
+      "wikidataId": "Q11215",
+      "significance": 5,
+      "x": -3900,
+      "y": 1932,
+      "fx": -3900,
+      "fy": 1932,
+      "description": "Windows 7 is an historic windows desktop operating system originating in 2009. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 6.1) targeting x86, x86-64 architectures under Proprietary.",
+      "sitelinks": 103
+    },
+    {
+      "id": "android-operating-system",
+      "name": "Android (operating system)",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Android (operating system) Kernel",
+      "inceptionYear": 2008,
+      "developer": "Google",
+      "license": "Apache Software License 2.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Android_(operating_system)",
+      "wikidataId": "Q94",
+      "description": "operating system created by Google for use on mobile devices",
+      "significance": 5,
+      "x": 3900,
+      "y": 2325,
+      "fx": 3900,
+      "fy": 2325,
+      "sitelinks": 155
+    },
+    {
+      "id": "darwin",
+      "name": "Darwin (operating system)",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "Darwin (operating system) Kernel",
+      "inceptionYear": 2000,
+      "developer": "Apple Inc.",
+      "license": "Apple Public Source License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Darwin_(operating_system)",
+      "wikidataId": "Q14581",
+      "description": "core Unix-like operating system of macOS, iOS, etc.",
+      "significance": 5,
+      "x": -4002,
+      "y": -1563,
+      "fx": -4002,
+      "fy": -1563,
+      "sitelinks": 35
+    },
+    {
+      "id": "fedora-linux",
+      "name": "Fedora Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Fedora Linux Kernel",
+      "inceptionYear": 2002,
+      "developer": "Red Hat",
+      "license": "MIT License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Fedora_Linux",
+      "wikidataId": "Q48267",
+      "description": "Linux distribution",
+      "significance": 5,
+      "x": 4013,
+      "y": 2035,
+      "fx": 4013,
+      "fy": 2035,
+      "sitelinks": 76
+    },
+    {
+      "id": "debian-q7715973",
+      "name": "Debian",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "Debian Kernel",
+      "inceptionYear": 1993,
+      "developer": "The Debian Project",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Debian",
+      "wikidataId": "Q7715973",
+      "description": "free operating system",
+      "significance": 5,
+      "x": -81,
+      "y": 4645,
+      "fx": -81,
+      "fy": 4645,
+      "sitelinks": 108
+    },
+    {
+      "id": "slackware",
+      "name": "Slackware",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Slackware Kernel",
+      "inceptionYear": 1993,
+      "developer": "Patrick Volkerding",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Slackware",
+      "wikidataId": "Q58436",
+      "description": "Slackware Linux is an actively maintained linux operating system distribution originating in 1993. Developed primarily by Patrick Volkerding, it features a monolithic kernel design (Linux) targeting x86, x86-64, ARM architectures under GPL.",
+      "significance": 5,
+      "x": 3900,
+      "y": 2230,
+      "fx": 3900,
+      "fy": 2230,
+      "sitelinks": 82
+    },
+    {
+      "id": "qnx",
+      "name": "QNX Neutrino",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "QNX Neutrino Microkernel",
+      "inceptionYear": 1982,
+      "developer": "Quantum Software Systems / BlackBerry",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM",
+        "MIPS",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "QNX_Neutrino",
+      "wikidataId": "Q216176",
+      "significance": 4,
+      "x": 81,
+      "y": 4355,
+      "fx": 81,
+      "fy": 4355,
+      "description": "QNX Neutrino is an actively maintained microkernel operating system originating in 1982. Developed primarily by Quantum Software Systems / BlackBerry, it features a microkernel kernel design (QNX Neutrino Microkernel) targeting x86, x86-64, ARM, MIPS, PowerPC architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "plan9",
+      "name": "Plan 9 from Bell Labs",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "Plan 9 Kernel",
+      "inceptionYear": 1992,
+      "developer": "Bell Labs (Ken Thompson, Rob Pike, Dennis Ritchie)",
+      "license": "MIT / LPL",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "ARM",
+        "MIPS",
+        "SPARC"
+      ],
+      "wikipediaTitle": "Plan_9_from_Bell_Labs",
+      "wikidataId": "Q216180",
+      "significance": 4,
+      "x": 140,
+      "y": 4751,
+      "fx": 140,
+      "fy": 4751,
+      "description": "Plan 9 from Bell Labs is an actively maintained independent operating system originating in 1992. Developed primarily by Bell Labs (Ken Thompson, Rob Pike, Dennis Ritchie), it features a monolithic kernel design (Plan 9 Kernel) targeting x86, ARM, MIPS, SPARC architectures under MIT / LPL.",
+      "sitelinks": 35
+    },
+    {
+      "id": "suse",
+      "name": "SUSE Linux / openSUSE",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 1994,
+      "developer": "SUSE / openSUSE Project",
+      "license": "GPL & Various Open Source",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "PowerPC",
+        "s390x"
+      ],
+      "wikipediaTitle": "OpenSUSE",
+      "wikidataId": "Q494570",
+      "significance": 4,
+      "x": 3788,
+      "y": 2295,
+      "fx": 3788,
+      "fy": 2295,
+      "description": "SUSE Linux / openSUSE is an actively maintained linux operating system distribution originating in 1994. Developed primarily by SUSE / openSUSE Project, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, PowerPC, s390x architectures under GPL & Various Open Source.",
+      "sitelinks": 51
+    },
+    {
+      "id": "openbsd",
+      "name": "OpenBSD",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "OpenBSD Kernel",
+      "inceptionYear": 1995,
+      "developer": "Theo de Raadt & The OpenBSD Project",
+      "license": "ISC / BSD",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "SPARC64",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "OpenBSD",
+      "wikidataId": "Q34250",
+      "significance": 4,
+      "x": 3640,
+      "y": -1580,
+      "fx": 3640,
+      "fy": -1580,
+      "description": "OpenBSD is an actively maintained berkeley software distribution derivative originating in 1995. Developed primarily by Theo de Raadt & The OpenBSD Project, it features a monolithic kernel design (OpenBSD Kernel) targeting x86-64, ARM64, SPARC64, PowerPC architectures under ISC / BSD.",
+      "sitelinks": 60
+    },
+    {
+      "id": "netbsd",
+      "name": "NetBSD",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "NetBSD Kernel",
+      "inceptionYear": 1993,
+      "developer": "The NetBSD Foundation",
+      "license": "BSD 2-Clause",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM",
+        "MIPS",
+        "SPARC",
+        "m68k",
+        "VAX",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "NetBSD",
+      "wikidataId": "Q230588",
+      "significance": 4,
+      "x": 3820,
+      "y": -1500,
+      "fx": 3820,
+      "fy": -1500,
+      "description": "NetBSD is an actively maintained berkeley software distribution derivative originating in 1993. Developed primarily by The NetBSD Foundation, it features a monolithic kernel design (NetBSD Kernel) targeting x86-64, ARM, MIPS, SPARC, m68k, VAX, RISC-V architectures under BSD 2-Clause.",
+      "sitelinks": 55
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux (musl + BusyBox)",
+      "inceptionYear": 2005,
+      "developer": "Natanael Copa & Alpine Team",
+      "license": "GPL-2.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V",
+        "s390x"
+      ],
+      "wikipediaTitle": "Alpine_Linux",
+      "wikidataId": "Q388147",
+      "significance": 4,
+      "x": 4013,
+      "y": 1905,
+      "fx": 4013,
+      "fy": 1905,
+      "description": "Alpine Linux is an actively maintained linux operating system distribution originating in 2005. Developed primarily by Natanael Copa & Alpine Team, it features a monolithic kernel design (Linux (musl + BusyBox)) targeting x86-64, ARM64, RISC-V, s390x architectures under GPL-2.0.",
+      "sitelinks": 35
+    },
+    {
+      "id": "solaris",
+      "name": "Solaris",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "SunOS 5 (Solaris)",
+      "inceptionYear": 1992,
+      "developer": "Sun Microsystems / Oracle",
+      "license": "Proprietary / CDDL (OpenSolaris)",
+      "status": "active",
+      "architectures": [
+        "SPARC",
+        "x86-64"
+      ],
+      "wikipediaTitle": "Oracle_Solaris",
+      "wikidataId": "Q170423",
+      "significance": 4,
+      "x": -43,
+      "y": -3767,
+      "fx": -43,
+      "fy": -3767,
+      "description": "Solaris is an actively maintained research & commercial unix system originating in 1992. Developed primarily by Sun Microsystems / Oracle, it features a monolithic kernel design (SunOS 5 (Solaris)) targeting SPARC, x86-64 architectures under Proprietary / CDDL (OpenSolaris).",
+      "sitelinks": 35
+    },
+    {
+      "id": "gentoo",
+      "name": "Gentoo Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2002,
+      "developer": "Daniel Robbins & Gentoo Foundation",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM",
+        "PowerPC",
+        "SPARC",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "Gentoo_Linux",
+      "wikidataId": "Q188151",
+      "significance": 4,
+      "x": 3705,
+      "y": 1988,
+      "fx": 3705,
+      "fy": 1988,
+      "description": "Gentoo Linux is an actively maintained linux operating system distribution originating in 2002. Developed primarily by Daniel Robbins & Gentoo Foundation, it features a monolithic kernel design (Linux) targeting x86-64, ARM, PowerPC, SPARC, RISC-V architectures under GPL.",
+      "sitelinks": 58
+    },
+    {
+      "id": "freebsd",
+      "name": "FreeBSD",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "FreeBSD Kernel",
+      "inceptionYear": 1993,
+      "developer": "The FreeBSD Project",
+      "license": "BSD 2-Clause",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "FreeBSD",
+      "wikidataId": "Q34241",
+      "significance": 4,
+      "x": 3980,
+      "y": -1500,
+      "fx": 3980,
+      "fy": -1500,
+      "description": "FreeBSD is an actively maintained berkeley software distribution derivative originating in 1993. Developed primarily by The FreeBSD Project, it features a monolithic kernel design (FreeBSD Kernel) targeting x86-64, ARM64, RISC-V, PowerPC architectures under BSD 2-Clause.",
+      "sitelinks": 80
+    },
+    {
+      "id": "amigaos",
+      "name": "AmigaOS",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "Exec (Microkernel)",
+      "inceptionYear": 1985,
+      "developer": "Commodore / Hyperion Entertainment",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "Motorola 68000",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "AmigaOS",
+      "wikidataId": "Q216179",
+      "significance": 4,
+      "x": 281,
+      "y": 4500,
+      "fx": 281,
+      "fy": 4500,
+      "description": "AmigaOS is an actively maintained microkernel operating system originating in 1985. Developed primarily by Commodore / Hyperion Entertainment, it features a microkernel kernel design (Exec (Microkernel)) targeting Motorola 68000, PowerPC architectures under Proprietary.",
+      "sitelinks": 51
+    },
+    {
+      "id": "redox",
+      "name": "Redox OS",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "Redox Microkernel (Rust)",
+      "inceptionYear": 2015,
+      "developer": "Jeremy Soller & Redox Contributors",
+      "license": "MIT",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "Redox_(operating_system)",
+      "wikidataId": "Q22908272",
+      "significance": 4,
+      "x": -243,
+      "y": 4617,
+      "fx": -243,
+      "fy": 4617,
+      "description": "Redox OS is an actively maintained microkernel operating system originating in 2015. Developed primarily by Jeremy Soller & Redox Contributors, it features a microkernel kernel design (Redox Microkernel (Rust)) targeting x86-64, ARM64, RISC-V architectures under MIT.",
+      "sitelinks": 35
+    },
+    {
+      "id": "multics",
+      "name": "Multics",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "Multics Supervisor",
+      "inceptionYear": 1969,
+      "developer": "MIT / GE / Bell Labs",
+      "license": "Open source (MIT-style)",
+      "status": "historic",
+      "architectures": [
+        "GE-645",
+        "Honeywell 6180"
+      ],
+      "wikipediaTitle": "Multics",
+      "wikidataId": "Q733477",
+      "significance": 4,
+      "x": 113,
+      "y": -3818,
+      "fx": 113,
+      "fy": -3818,
+      "description": "Multics is an historic research & commercial unix system originating in 1969. Developed primarily by MIT / GE / Bell Labs, it features a monolithic kernel design (Multics Supervisor) targeting GE-645, Honeywell 6180 architectures under Open source (MIT-style).",
+      "sitelinks": 38
+    },
+    {
+      "id": "raspberry-pi-os",
+      "name": "Raspberry Pi OS (Raspbian)",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2012,
+      "developer": "Raspberry Pi Foundation",
+      "license": "Open Source",
+      "status": "active",
+      "architectures": [
+        "ARMhf",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Raspberry_Pi_OS",
+      "wikidataId": "Q216172",
+      "significance": 4,
+      "x": 4106,
+      "y": 2345,
+      "fx": 4106,
+      "fy": 2345,
+      "description": "Raspberry Pi OS (Raspbian) is an actively maintained linux operating system distribution originating in 2012. Developed primarily by Raspberry Pi Foundation, it features a monolithic kernel design (Linux) targeting ARMhf, ARM64 architectures under Open Source.",
+      "sitelinks": 35
+    },
+    {
+      "id": "vms",
+      "name": "OpenVMS",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "VMS Kernel",
+      "inceptionYear": 1977,
+      "developer": "DEC (David Cutler) / VSI",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "VAX",
+        "Alpha",
+        "IA-64",
+        "x86-64"
+      ],
+      "wikipediaTitle": "OpenVMS",
+      "wikidataId": "Q836378",
+      "significance": 4,
+      "x": -81,
+      "y": 4355,
+      "fx": -81,
+      "fy": 4355,
+      "description": "OpenVMS is an actively maintained independent operating system originating in 1977. Developed primarily by DEC (David Cutler) / VSI, it features a monolithic kernel design (VMS Kernel) targeting VAX, Alpha, IA-64, x86-64 architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "kali-linux",
+      "name": "Kali Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2013,
+      "developer": "Offensive Security",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "ARMhf"
+      ],
+      "wikipediaTitle": "Kali_Linux",
+      "wikidataId": "Q11263098",
+      "significance": 4,
+      "x": 4009,
+      "y": 2401,
+      "fx": 4009,
+      "fy": 2401,
+      "description": "Kali Linux is an actively maintained security & penetration testing distribution originating in 2013. Developed primarily by Offensive Security, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, ARMhf architectures under GPL-3.0.",
+      "sitelinks": 42
+    },
+    {
+      "id": "cp-m",
+      "name": "CP/M",
+      "family": "independent",
+      "kernelType": "simple",
+      "kernelName": "BDOS / BIOS",
+      "inceptionYear": 1974,
+      "developer": "Gary Kildall / Digital Research",
+      "license": "Open Source (Artistic-style)",
+      "status": "historic",
+      "architectures": [
+        "8080",
+        "Z80",
+        "8086"
+      ],
+      "wikipediaTitle": "CP/M",
+      "wikidataId": "Q207539",
+      "significance": 4,
+      "x": -162,
+      "y": 4500,
+      "fx": -162,
+      "fy": 4500,
+      "description": "CP/M is an historic independent operating system originating in 1974. Developed primarily by Gary Kildall / Digital Research, it features a simple kernel design (BDOS / BIOS) targeting 8080, Z80, 8086 architectures under Open Source (Artistic-style).",
+      "sitelinks": 41
+    },
+    {
+      "id": "nixos",
+      "name": "NixOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2003,
+      "developer": "Eelco Dolstra & NixOS Community",
+      "license": "MIT",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "NixOS",
+      "wikidataId": "Q230582",
+      "significance": 4,
+      "x": 3788,
+      "y": 1905,
+      "fx": 3788,
+      "fy": 1905,
+      "description": "NixOS is an actively maintained linux operating system distribution originating in 2003. Developed primarily by Eelco Dolstra & NixOS Community, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, RISC-V architectures under MIT.",
+      "sitelinks": 35
+    },
+    {
+      "id": "chromeos",
+      "name": "ChromeOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2011,
+      "developer": "Google",
+      "license": "Proprietary / BSD (ChromiumOS)",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "ChromeOS",
+      "wikidataId": "Q79531",
+      "significance": 4,
+      "x": 4125,
+      "y": 2100,
+      "fx": 4125,
+      "fy": 2100,
+      "description": "ChromeOS is an actively maintained linux operating system distribution originating in 2011. Developed primarily by Google, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under Proprietary / BSD (ChromiumOS).",
+      "sitelinks": 59
+    },
+    {
+      "id": "haiku",
+      "name": "Haiku",
+      "family": "independent",
+      "kernelType": "hybrid",
+      "kernelName": "Haiku Modular Hybrid Kernel",
+      "inceptionYear": 2002,
+      "developer": "Haiku Project",
+      "license": "MIT",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "Haiku_(operating_system)",
+      "wikidataId": "Q216177",
+      "significance": 4,
+      "x": -140,
+      "y": 4751,
+      "fx": -140,
+      "fy": 4751,
+      "description": "Haiku is an actively maintained independent operating system originating in 2002. Developed primarily by Haiku Project, it features a hybrid kernel design (Haiku Modular Hybrid Kernel) targeting x86, x86-64, ARM, RISC-V architectures under MIT.",
+      "sitelinks": 38
+    },
+    {
+      "id": "win-11",
+      "name": "Windows 11",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 10.0",
+      "inceptionYear": 2021,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Windows_11",
+      "wikidataId": "Q107269766",
+      "significance": 4,
+      "x": -3900,
+      "y": 1806,
+      "fx": -3900,
+      "fy": 1806,
+      "description": "Windows 11 is an actively maintained windows desktop operating system originating in 2021. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 10.0) targeting x86-64, ARM64 architectures under Proprietary.",
+      "sitelinks": 85
+    },
+    {
+      "id": "beos",
+      "name": "BeOS",
+      "family": "independent",
+      "kernelType": "hybrid",
+      "kernelName": "BeOS Modular Kernel",
+      "inceptionYear": 1995,
+      "developer": "Be Inc. (Jean-Louis Gassée)",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "BeBox",
+        "PowerPC",
+        "x86"
+      ],
+      "wikipediaTitle": "BeOS",
+      "wikidataId": "Q216175",
+      "significance": 4,
+      "x": 0,
+      "y": 4811,
+      "fx": 0,
+      "fy": 4811,
+      "description": "BeOS is an historic independent operating system originating in 1995. Developed primarily by Be Inc. (Jean-Louis Gassée), it features a hybrid kernel design (BeOS Modular Kernel) targeting BeBox, PowerPC, x86 architectures under Proprietary.",
+      "sitelinks": 45
+    },
+    {
+      "id": "bsd-42",
+      "name": "4.2BSD",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "BSD Kernel (with TCP/IP)",
+      "inceptionYear": 1983,
+      "developer": "CSRG (UC Berkeley)",
+      "license": "BSD License",
+      "status": "historic",
+      "architectures": [
+        "VAX"
+      ],
+      "wikipediaTitle": "Berkeley_Software_Distribution",
+      "wikidataId": "Q34264",
+      "significance": 4,
+      "x": 3900,
+      "y": -1420,
+      "fx": 3900,
+      "fy": -1420,
+      "description": "4.2BSD is an historic berkeley software distribution derivative originating in 1983. Developed primarily by CSRG (UC Berkeley), it features a monolithic kernel design (BSD Kernel (with TCP/IP)) targeting VAX architectures under BSD License.",
+      "sitelinks": 75
+    },
+    {
+      "id": "linux-mint",
+      "name": "Linux Mint",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2006,
+      "developer": "Clément Lefèbvre & Mint Community",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Linux_Mint",
+      "wikidataId": "Q2027",
+      "significance": 4,
+      "x": 4095,
+      "y": 1988,
+      "fx": 4095,
+      "fy": 1988,
+      "description": "Linux Mint is an actively maintained linux operating system distribution originating in 2006. Developed primarily by Clément Lefèbvre & Mint Community, it features a monolithic kernel design (Linux) targeting x86-64 architectures under GPL.",
+      "sitelinks": 76
+    },
+    {
+      "id": "win-nt-40",
+      "name": "Windows NT 4.0",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 4.0",
+      "inceptionYear": 1996,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "Alpha",
+        "MIPS",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "Windows_NT_4.0",
+      "wikidataId": "Q755106",
+      "significance": 4,
+      "x": -3900,
+      "y": 2394,
+      "fx": -3900,
+      "fy": 2394,
+      "description": "Windows NT 4.0 is an historic windows nt architecture originating in 1996. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 4.0) targeting x86, Alpha, MIPS, PowerPC architectures under Proprietary.",
+      "sitelinks": 41
+    },
+    {
+      "id": "manjaro",
+      "name": "Manjaro",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2011,
+      "developer": "Manjaro GmbH & Co. KG",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Manjaro",
+      "wikidataId": "Q170668",
+      "significance": 4,
+      "x": 4177,
+      "y": 2260,
+      "fx": 4177,
+      "fy": 2260,
+      "description": "Manjaro is an actively maintained linux operating system distribution originating in 2011. Developed primarily by Manjaro GmbH & Co. KG, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL.",
+      "sitelinks": 35
+    },
+    {
+      "id": "win-vista",
+      "name": "Windows Vista",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 6.0",
+      "inceptionYear": 2006,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_Vista",
+      "wikidataId": "Q9520",
+      "significance": 4,
+      "x": -4047,
+      "y": 1953,
+      "fx": -4047,
+      "fy": 1953,
+      "description": "Windows Vista is an historic windows desktop operating system originating in 2006. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 6.0) targeting x86, x86-64 architectures under Proprietary.",
+      "sitelinks": 54
+    },
+    {
+      "id": "win-3",
+      "name": "Windows 3.1",
+      "family": "windows",
+      "kernelType": "simple",
+      "kernelName": "Enhanced mode kernel (KRNL386)",
+      "inceptionYear": 1992,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "Windows_3.1x",
+      "wikidataId": "Q494553",
+      "significance": 4,
+      "x": -3753,
+      "y": 2247,
+      "fx": -3753,
+      "fy": 2247,
+      "description": "Windows 3.1 is an historic windows desktop operating system originating in 1992. Developed primarily by Microsoft, it features a simple kernel design (Enhanced mode kernel (KRNL386)) targeting x86 architectures under Proprietary.",
+      "sitelinks": 48
+    },
+    {
+      "id": "mac-os-x-snow-leopard",
+      "name": "Mac OS X Snow Leopard",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "XNU 64-bit",
+      "inceptionYear": 2009,
+      "developer": "Apple Inc.",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64"
+      ],
+      "wikipediaTitle": "Mac_OS_X_Snow_Leopard",
+      "wikidataId": "Q125501",
+      "significance": 4,
+      "x": -3735,
+      "y": -1508,
+      "fx": -3735,
+      "fy": -1508,
+      "description": "Mac OS X Snow Leopard is an historic apple macos / darwin architecture originating in 2009. Developed primarily by Apple Inc., it features a hybrid kernel design (XNU 64-bit) targeting x86, x86-64 architectures under Proprietary.",
+      "sitelinks": 110
+    },
+    {
+      "id": "aix",
+      "name": "AIX",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "AIX Kernel",
+      "inceptionYear": 1986,
+      "developer": "IBM",
+      "license": "Proprietary",
+      "status": "active",
+      "architectures": [
+        "POWER",
+        "PowerPC",
+        "ROMP"
+      ],
+      "wikipediaTitle": "IBM_AIX",
+      "wikidataId": "Q185565",
+      "significance": 4,
+      "x": 43,
+      "y": -3767,
+      "fx": 43,
+      "fy": -3767,
+      "description": "AIX is an actively maintained research & commercial unix system originating in 1986. Developed primarily by IBM, it features a monolithic kernel design (AIX Kernel) targeting POWER, PowerPC, ROMP architectures under Proprietary.",
+      "sitelinks": 65
+    },
+    {
+      "id": "win-2000",
+      "name": "Windows 2000",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 5.0",
+      "inceptionYear": 2000,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "IA-64"
+      ],
+      "wikipediaTitle": "Windows_2000",
+      "wikidataId": "Q79843",
+      "significance": 4,
+      "x": -4194,
+      "y": 2100,
+      "fx": -4194,
+      "fy": 2100,
+      "description": "Windows 2000 is an historic windows desktop operating system originating in 2000. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 5.0) targeting x86, IA-64 architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "mac-os-x-cheetah",
+      "name": "Mac OS X (10.0 Cheetah)",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "XNU",
+      "inceptionYear": 2001,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "PowerPC"
+      ],
+      "wikipediaTitle": "Mac_OS_X_10.0",
+      "wikidataId": "Q658212",
+      "significance": 4,
+      "x": -3989,
+      "y": -1639,
+      "fx": -3989,
+      "fy": -1639,
+      "description": "Mac OS X (10.0 Cheetah) is an historic apple macos / darwin architecture originating in 2001. Developed primarily by Apple Computer, it features a hybrid kernel design (XNU) targeting PowerPC architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "system-7",
+      "name": "System 7",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "System 7 Kernel",
+      "inceptionYear": 1991,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "68000",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "System_7",
+      "wikidataId": "Q494541",
+      "significance": 4,
+      "x": -3976,
+      "y": -1353,
+      "fx": -3976,
+      "fy": -1353,
+      "description": "System 7 is an historic classic macintosh system originating in 1991. Developed primarily by Apple Computer, it features a monolithic kernel design (System 7 Kernel) targeting 68000, PowerPC architectures under Proprietary.",
+      "sitelinks": 55
+    },
+    {
+      "id": "pop-os",
+      "name": "Pop!_OS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2017,
+      "developer": "System76",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Pop!_OS",
+      "wikidataId": "Q48818047",
+      "significance": 4,
+      "x": 3900,
+      "y": 2420,
+      "fx": 3900,
+      "fy": 2420,
+      "description": "Pop!_OS is an actively maintained linux operating system distribution originating in 2017. Developed primarily by System76, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL-3.0.",
+      "sitelinks": 35
+    },
+    {
+      "id": "win-98",
+      "name": "Windows 98",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 9x Kernel",
+      "inceptionYear": 1998,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "Windows_98",
+      "wikidataId": "Q483132",
+      "significance": 4,
+      "x": -4047,
+      "y": 2247,
+      "fx": -4047,
+      "fy": 2247,
+      "description": "Windows 98 is an historic windows desktop operating system originating in 1998. Developed primarily by Microsoft, it features a monolithic kernel design (Windows 9x Kernel) targeting x86 architectures under Proprietary.",
+      "sitelinks": 77
+    },
+    {
+      "id": "centos",
+      "name": "CentOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2004,
+      "developer": "CentOS Project",
+      "license": "GPL",
+      "status": "discontinued",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "CentOS",
+      "wikidataId": "Q484435",
+      "significance": 4,
+      "x": 3900,
+      "y": 1875,
+      "fx": 3900,
+      "fy": 1875,
+      "description": "CentOS is an historic linux operating system distribution originating in 2004. Developed primarily by CentOS Project, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL.",
+      "sitelinks": 35
+    },
+    {
+      "id": "os2",
+      "name": "OS/2",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "OS/2 Kernel",
+      "inceptionYear": 1987,
+      "developer": "IBM & Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "OS/2",
+      "wikidataId": "Q216170",
+      "significance": 4,
+      "x": 243,
+      "y": 4617,
+      "fx": 243,
+      "fy": 4617,
+      "description": "OS/2 is an historic independent operating system originating in 1987. Developed primarily by IBM & Microsoft, it features a monolithic kernel design (OS/2 Kernel) targeting x86 architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "lineageos",
+      "name": "LineageOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "LineageOS Kernel",
+      "inceptionYear": 2017,
+      "developer": "Open Source Community / Independent",
+      "license": "GNU General Public License, version 2.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "LineageOS",
+      "wikidataId": "Q28059734",
+      "description": "mobile operating system based on Android",
+      "significance": 4,
+      "x": 3791,
+      "y": 2401,
+      "fx": 3791,
+      "fy": 2401,
+      "sitelinks": 38
+    },
+    {
+      "id": "knoppix",
+      "name": "Knoppix",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Knoppix Kernel",
+      "inceptionYear": 2000,
+      "developer": "Klaus Knopper",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Knoppix",
+      "wikidataId": "Q102410",
+      "description": "Linux distribution",
+      "significance": 4,
+      "x": 3705,
+      "y": 2213,
+      "fx": 3705,
+      "fy": 2213,
+      "sitelinks": 56
+    },
+    {
+      "id": "red-hat-enterprise-linux",
+      "name": "Red Hat Enterprise Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Red Hat Enterprise Linux Kernel",
+      "inceptionYear": 2000,
+      "developer": "Red Hat",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Red_Hat_Enterprise_Linux",
+      "wikidataId": "Q215273",
+      "description": "Linux distribution",
+      "significance": 4,
+      "x": 3675,
+      "y": 2100,
+      "fx": 3675,
+      "fy": 2100,
+      "sitelinks": 44
+    },
+    {
+      "id": "sel4",
+      "name": "seL4",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "seL4 Formally Verified Microkernel",
+      "inceptionYear": 2009,
+      "developer": "seL4 Foundation / NICTA",
+      "license": "GPL-2.0",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "L4_microkernel_family",
+      "wikidataId": "Q1050524",
+      "significance": 3,
+      "x": 0,
+      "y": 4189,
+      "fx": 0,
+      "fy": 4189,
+      "description": "seL4 is an actively maintained microkernel operating system originating in 2009. Developed primarily by seL4 Foundation / NICTA, it features a microkernel kernel design (seL4 Formally Verified Microkernel) targeting x86, x86-64, ARM, RISC-V architectures under GPL-2.0.",
+      "sitelinks": 16
+    },
+    {
+      "id": "reactos",
+      "name": "ReactOS",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "ReactOS NT-compatible Kernel",
+      "inceptionYear": 1998,
+      "developer": "ReactOS Development Team",
+      "license": "GPL-2.0 / LGPL",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM"
+      ],
+      "wikipediaTitle": "ReactOS",
+      "wikidataId": "Q49227",
+      "significance": 3,
+      "x": -3900,
+      "y": 2520,
+      "fx": -3900,
+      "fy": 2520,
+      "description": "ReactOS is an actively maintained windows desktop operating system originating in 1998. Developed primarily by ReactOS Development Team, it features a hybrid kernel design (ReactOS NT-compatible Kernel) targeting x86, x86-64, ARM architectures under GPL-2.0 / LGPL.",
+      "sitelinks": 78
+    },
+    {
+      "id": "genode",
+      "name": "Genode OS Framework",
+      "family": "independent",
+      "kernelType": "microkernel",
+      "kernelName": "Genode Microkernel Abstraction",
+      "inceptionYear": 2008,
+      "developer": "Genode Labs",
+      "license": "AGPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM",
+        "RISC-V"
+      ],
+      "wikipediaTitle": "Genode",
+      "wikidataId": "Q1502476",
+      "significance": 3,
+      "x": -140,
+      "y": 4249,
+      "fx": -140,
+      "fy": 4249,
+      "description": "Genode OS Framework is an actively maintained microkernel operating system originating in 2008. Developed primarily by Genode Labs, it features a microkernel kernel design (Genode Microkernel Abstraction) targeting x86-64, ARM, RISC-V architectures under AGPL-3.0.",
+      "sitelinks": 18
+    },
+    {
+      "id": "guix",
+      "name": "GNU Guix System",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux-libre / GNU Hurd",
+      "inceptionYear": 2015,
+      "developer": "GNU Project",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "PowerPC"
+      ],
+      "wikipediaTitle": "GNU_Guix_System",
+      "wikidataId": "Q20653063",
+      "significance": 3,
+      "x": 4134,
+      "y": 2443,
+      "fx": 4134,
+      "fy": 2443,
+      "description": "GNU Guix System is an actively maintained linux operating system distribution originating in 2015. Developed primarily by GNU Project, it features a monolithic kernel design (Linux-libre / GNU Hurd) targeting x86-64, ARM64, PowerPC architectures under GPL-3.0.",
+      "sitelinks": 22
+    },
+    {
+      "id": "dragonflybsd",
+      "name": "DragonFly BSD",
+      "family": "bsd",
+      "kernelType": "hybrid",
+      "kernelName": "DragonFly Hybrid Kernel",
+      "inceptionYear": 2003,
+      "developer": "Matthew Dillon & Team",
+      "license": "BSD License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "DragonFly_BSD",
+      "wikidataId": "Q824647",
+      "significance": 3,
+      "x": 4160,
+      "y": -1580,
+      "fx": 4160,
+      "fy": -1580,
+      "description": "DragonFly BSD is an actively maintained berkeley software distribution derivative originating in 2003. Developed primarily by Matthew Dillon & Team, it features a hybrid kernel design (DragonFly Hybrid Kernel) targeting x86-64 architectures under BSD License.",
+      "sitelinks": 15
+    },
+    {
+      "id": "serenityos",
+      "name": "SerenityOS",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "Serenity Unix-like Kernel",
+      "inceptionYear": 2018,
+      "developer": "Andreas Kling & Contributors",
+      "license": "BSD 2-Clause",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "SerenityOS",
+      "wikidataId": "Q1050523",
+      "significance": 3,
+      "x": 243,
+      "y": 4383,
+      "fx": 243,
+      "fy": 4383,
+      "description": "SerenityOS is an actively maintained independent operating system originating in 2018. Developed primarily by Andreas Kling & Contributors, it features a monolithic kernel design (Serenity Unix-like Kernel) targeting x86-64 architectures under BSD 2-Clause.",
+      "sitelinks": 15
+    },
+    {
+      "id": "rocky-linux",
+      "name": "Rocky Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2021,
+      "developer": "Rocky Enterprise Software Foundation",
+      "license": "BSD 3-Clause",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Rocky_Linux",
+      "wikidataId": "Q104118023",
+      "significance": 3,
+      "x": 3514,
+      "y": 2252,
+      "fx": 3514,
+      "fy": 2252,
+      "description": "Rocky Linux is an actively maintained enterprise server distribution originating in 2021. Developed primarily by Rocky Enterprise Software Foundation, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under BSD 3-Clause.",
+      "sitelinks": 20
+    },
+    {
+      "id": "void-linux",
+      "name": "Void Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux (runit)",
+      "inceptionYear": 2008,
+      "developer": "Juan Romero Pardines",
+      "license": "BSD 2-Clause",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Void_Linux",
+      "wikidataId": "Q216173",
+      "significance": 3,
+      "x": 4106,
+      "y": 1855,
+      "fx": 4106,
+      "fy": 1855,
+      "description": "Void Linux is an actively maintained linux operating system distribution originating in 2008. Developed primarily by Juan Romero Pardines, it features a monolithic kernel design (Linux (runit)) targeting x86-64, ARM64 architectures under BSD 2-Clause.",
+      "sitelinks": 58
+    },
+    {
+      "id": "inferno",
+      "name": "Inferno",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "Inferno Kernel (Dis VM)",
+      "inceptionYear": 1996,
+      "developer": "Bell Labs / Vita Nuova",
+      "license": "GPL / MIT",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "ARM",
+        "PowerPC",
+        "SPARC"
+      ],
+      "wikipediaTitle": "Inferno_(operating_system)",
+      "wikidataId": "Q1050522",
+      "significance": 3,
+      "x": -243,
+      "y": 4383,
+      "fx": -243,
+      "fy": 4383,
+      "description": "Inferno is an historic independent operating system originating in 1996. Developed primarily by Bell Labs / Vita Nuova, it features a monolithic kernel design (Inferno Kernel (Dis VM)) targeting x86, ARM, PowerPC, SPARC architectures under GPL / MIT.",
+      "sitelinks": 25
+    },
+    {
+      "id": "deepin",
+      "name": "Deepin",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2004,
+      "developer": "Wuhan Deepin Technology",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "LoongArch"
+      ],
+      "wikipediaTitle": "Deepin",
+      "wikidataId": "Q182855",
+      "significance": 3,
+      "x": 3623,
+      "y": 1940,
+      "fx": 3623,
+      "fy": 1940,
+      "description": "Deepin is an actively maintained linux operating system distribution originating in 2004. Developed primarily by Wuhan Deepin Technology, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, LoongArch architectures under GPL-3.0.",
+      "sitelinks": 31
+    },
+    {
+      "id": "almalinux",
+      "name": "AlmaLinux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2021,
+      "developer": "AlmaLinux OS Foundation",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64",
+        "ppc64le",
+        "s390x"
+      ],
+      "wikipediaTitle": "AlmaLinux",
+      "wikidataId": "Q105072049",
+      "significance": 3,
+      "x": 3486,
+      "y": 2069,
+      "fx": 3486,
+      "fy": 2069,
+      "description": "AlmaLinux is an actively maintained enterprise server distribution originating in 2021. Developed primarily by AlmaLinux OS Foundation, it features a monolithic kernel design (Linux) targeting x86-64, ARM64, ppc64le, s390x architectures under GPL.",
+      "sitelinks": 20
+    },
+    {
+      "id": "mx-linux",
+      "name": "MX Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2014,
+      "developer": "MX Community (antiX & MEPIS)",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "MX_Linux",
+      "wikidataId": "Q23058888",
+      "significance": 3,
+      "x": 4259,
+      "y": 2308,
+      "fx": 4259,
+      "fy": 2308,
+      "description": "MX Linux is an actively maintained linux operating system distribution originating in 2014. Developed primarily by MX Community (antiX & MEPIS), it features a monolithic kernel design (Linux) targeting x86, x86-64, ARM64 architectures under GPL.",
+      "sitelinks": 28
+    },
+    {
+      "id": "bsd-1",
+      "name": "1BSD",
+      "family": "bsd",
+      "kernelType": "monolithic",
+      "kernelName": "BSD Kernel",
+      "inceptionYear": 1977,
+      "developer": "University of California, Berkeley",
+      "license": "BSD License",
+      "status": "historic",
+      "architectures": [
+        "PDP-11"
+      ],
+      "wikipediaTitle": "Berkeley_Software_Distribution",
+      "wikidataId": "Q34264",
+      "significance": 3,
+      "x": 3900,
+      "y": -1580,
+      "fx": 3900,
+      "fy": -1580,
+      "description": "1BSD is an historic berkeley software distribution derivative originating in 1977. Developed primarily by University of California, Berkeley, it features a monolithic kernel design (BSD Kernel) targeting PDP-11 architectures under BSD License.",
+      "sitelinks": 75
+    },
+    {
+      "id": "endeavouros",
+      "name": "EndeavourOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2019,
+      "developer": "EndeavourOS Development Team",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "EndeavourOS",
+      "wikidataId": "Q656094",
+      "significance": 3,
+      "x": 3618,
+      "y": 2404,
+      "fx": 3618,
+      "fy": 2404,
+      "description": "EndeavourOS is an actively maintained linux operating system distribution originating in 2019. Developed primarily by EndeavourOS Development Team, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL.",
+      "sitelinks": 22
+    },
+    {
+      "id": "mandriva",
+      "name": "Mandrake Linux / Mandriva",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 1998,
+      "developer": "Gaël Duval / Mandriva S.A.",
+      "license": "GPL",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64"
+      ],
+      "wikipediaTitle": "Mandriva_Linux",
+      "wikidataId": "Q182885",
+      "significance": 3,
+      "x": 3623,
+      "y": 2260,
+      "fx": 3623,
+      "fy": 2260,
+      "description": "Mandrake Linux / Mandriva is an historic linux operating system distribution originating in 1998. Developed primarily by Gaël Duval / Mandriva S.A., it features a monolithic kernel design (Linux) targeting x86, x86-64 architectures under GPL.",
+      "sitelinks": 53
+    },
+    {
+      "id": "postmarketos",
+      "name": "postmarketOS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2017,
+      "developer": "postmarketOS Community",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "ARM64",
+        "x86-64"
+      ],
+      "wikipediaTitle": "PostmarketOS",
+      "wikidataId": "Q41505370",
+      "significance": 3,
+      "x": 3778,
+      "y": 2497,
+      "fx": 3778,
+      "fy": 2497,
+      "description": "postmarketOS is an actively maintained linux operating system distribution originating in 2017. Developed primarily by postmarketOS Community, it features a monolithic kernel design (Linux) targeting ARM64, x86-64 architectures under GPL-3.0.",
+      "sitelinks": 22
+    },
+    {
+      "id": "illumos",
+      "name": "illumos",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "illumos Core Kernel",
+      "inceptionYear": 2010,
+      "developer": "Illumos Community",
+      "license": "CDDL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "SPARC"
+      ],
+      "wikipediaTitle": "Illumos",
+      "wikidataId": "Q1050519",
+      "significance": 3,
+      "x": -250,
+      "y": -3900,
+      "fx": -250,
+      "fy": -3900,
+      "description": "illumos is an actively maintained research & commercial unix system originating in 2010. Developed primarily by Illumos Community, it features a monolithic kernel design (illumos Core Kernel) targeting x86-64, SPARC architectures under CDDL.",
+      "sitelinks": 30
+    },
+    {
+      "id": "apple-dos",
+      "name": "Apple DOS",
+      "family": "apple",
+      "kernelType": "simple",
+      "kernelName": "Apple DOS RWTS",
+      "inceptionYear": 1978,
+      "developer": "Paul Laughton / Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "MOS 6502"
+      ],
+      "wikipediaTitle": "Apple_DOS",
+      "wikidataId": "Q621376",
+      "significance": 3,
+      "x": -4068,
+      "y": -1374,
+      "fx": -4068,
+      "fy": -1374,
+      "description": "Apple DOS is an historic apple macos / darwin architecture originating in 1978. Developed primarily by Paul Laughton / Apple Computer, it features a simple kernel design (Apple DOS RWTS) targeting MOS 6502 architectures under Proprietary.",
+      "sitelinks": 20
+    },
+    {
+      "id": "unix-system-iii",
+      "name": "UNIX System III",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "Unix Kernel",
+      "inceptionYear": 1982,
+      "developer": "AT&T USG",
+      "license": "Commercial Proprietary",
+      "status": "historic",
+      "architectures": [
+        "PDP-11",
+        "VAX"
+      ],
+      "wikipediaTitle": "UNIX_System_III",
+      "wikidataId": "Q593883",
+      "significance": 3,
+      "x": -140,
+      "y": -3900,
+      "fx": -140,
+      "fy": -3900,
+      "description": "UNIX System III is an historic research & commercial unix system originating in 1982. Developed primarily by AT&T USG, it features a monolithic kernel design (Unix Kernel) targeting PDP-11, VAX architectures under Commercial Proprietary.",
+      "sitelinks": 15
+    },
+    {
+      "id": "sls",
+      "name": "SLS (Softlanding Linux System)",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux 0.99",
+      "inceptionYear": 1992,
+      "developer": "Peter MacDonald",
+      "license": "GPL-2.0",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "Softlanding_Linux_System",
+      "wikidataId": "Q656093",
+      "significance": 3,
+      "x": 3694,
+      "y": 2345,
+      "fx": 3694,
+      "fy": 2345,
+      "description": "SLS (Softlanding Linux System) is an historic linux operating system distribution originating in 1992. Developed primarily by Peter MacDonald, it features a monolithic kernel design (Linux 0.99) targeting x86 architectures under GPL-2.0.",
+      "sitelinks": 21
+    },
+    {
+      "id": "devuan",
+      "name": "Devuan",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2015,
+      "developer": "Veteran Unix Admins",
+      "license": "DFSG / GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Devuan",
+      "wikidataId": "Q18698188",
+      "significance": 3,
+      "x": 3962,
+      "y": 2510,
+      "fx": 3962,
+      "fy": 2510,
+      "description": "Devuan is an actively maintained linux operating system distribution originating in 2015. Developed primarily by Veteran Unix Admins, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under DFSG / GPL.",
+      "sitelinks": 20
+    },
+    {
+      "id": "qdos",
+      "name": "86-DOS (QDOS)",
+      "family": "windows",
+      "kernelType": "simple",
+      "kernelName": "86-DOS",
+      "inceptionYear": 1980,
+      "developer": "Tim Paterson / Seattle Computer Products",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "8086"
+      ],
+      "wikipediaTitle": "86-DOS",
+      "wikidataId": "Q174780",
+      "significance": 3,
+      "x": -3753,
+      "y": 1953,
+      "fx": -3753,
+      "fy": 1953,
+      "description": "86-DOS (QDOS) is an historic disk operating system (dos) originating in 1980. Developed primarily by Tim Paterson / Seattle Computer Products, it features a simple kernel design (86-DOS) targeting 8086 architectures under Proprietary.",
+      "sitelinks": 35
+    },
+    {
+      "id": "freedos",
+      "name": "FreeDOS",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "FreeDOS Kernel",
+      "inceptionYear": 1994,
+      "developer": "Jim Hall & FreeDOS Community",
+      "license": "GPL-2.0",
+      "status": "active",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "FreeDOS",
+      "wikidataId": "Q214309",
+      "significance": 3,
+      "x": -3746,
+      "y": 2366,
+      "fx": -3746,
+      "fy": 2366,
+      "description": "FreeDOS is an actively maintained disk operating system (dos) originating in 1994. Developed primarily by Jim Hall & FreeDOS Community, it features a monolithic kernel design (FreeDOS Kernel) targeting x86 architectures under GPL-2.0.",
+      "sitelinks": 71
+    },
+    {
+      "id": "win-8",
+      "name": "Windows 8",
+      "family": "windows",
+      "kernelType": "hybrid",
+      "kernelName": "Windows NT Kernel 6.2",
+      "inceptionYear": 2012,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "x86-64",
+        "ARMv7"
+      ],
+      "wikipediaTitle": "Windows_8",
+      "wikidataId": "Q5046",
+      "significance": 3,
+      "x": -4166,
+      "y": 2254,
+      "fx": -4166,
+      "fy": 2254,
+      "description": "Windows 8 is an historic windows desktop operating system originating in 2012. Developed primarily by Microsoft, it features a hybrid kernel design (Windows NT Kernel 6.2) targeting x86, x86-64, ARMv7 architectures under Proprietary.",
+      "sitelinks": 90
+    },
+    {
+      "id": "lisa-os",
+      "name": "Lisa OS",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "Lisa OS Executive",
+      "inceptionYear": 1983,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "Motorola 68000"
+      ],
+      "wikipediaTitle": "Apple_Lisa",
+      "wikidataId": "Q207865",
+      "significance": 3,
+      "x": -3926,
+      "y": -1708,
+      "fx": -3926,
+      "fy": -1708,
+      "description": "Lisa OS is an historic apple macos / darwin architecture originating in 1983. Developed primarily by Apple Computer, it features a monolithic kernel design (Lisa OS Executive) targeting Motorola 68000 architectures under Proprietary.",
+      "sitelinks": 36
+    },
+    {
+      "id": "openstep",
+      "name": "OPENSTEP",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "Mach 2.5",
+      "inceptionYear": 1994,
+      "developer": "NeXT / Sun Microsystems",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "SPARC",
+        "HP-PA"
+      ],
+      "wikipediaTitle": "OpenStep",
+      "wikidataId": "Q849497",
+      "significance": 3,
+      "x": -4150,
+      "y": -1450,
+      "fx": -4150,
+      "fy": -1450,
+      "description": "OPENSTEP is an historic apple macos / darwin architecture originating in 1994. Developed primarily by NeXT / Sun Microsystems, it features a hybrid kernel design (Mach 2.5) targeting x86, SPARC, HP-PA architectures under Proprietary.",
+      "sitelinks": 40
+    },
+    {
+      "id": "elementary-os",
+      "name": "elementary OS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2011,
+      "developer": "elementary, Inc.",
+      "license": "GPL / LGPL",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Elementary_OS",
+      "wikidataId": "Q131336",
+      "significance": 3,
+      "x": 4215,
+      "y": 2156,
+      "fx": 4215,
+      "fy": 2156,
+      "description": "elementary OS is an actively maintained linux operating system distribution originating in 2011. Developed primarily by elementary, Inc., it features a monolithic kernel design (Linux) targeting x86-64 architectures under GPL / LGPL.",
+      "sitelinks": 26
+    },
+    {
+      "id": "xenix",
+      "name": "Xenix",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "Xenix Kernel",
+      "inceptionYear": 1980,
+      "developer": "Microsoft / SCO",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "68000",
+        "Z8001"
+      ],
+      "wikipediaTitle": "Xenix",
+      "wikidataId": "Q593895",
+      "significance": 3,
+      "x": -113,
+      "y": -3818,
+      "fx": -113,
+      "fy": -3818,
+      "description": "Xenix is an historic research & commercial unix system originating in 1980. Developed primarily by Microsoft / SCO, it features a monolithic kernel design (Xenix Kernel) targeting x86, 68000, Z8001 architectures under Proprietary.",
+      "sitelinks": 43
+    },
+    {
+      "id": "mac-os-9",
+      "name": "Mac OS 9",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "Mac OS 9 Nanokernel",
+      "inceptionYear": 1999,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "PowerPC"
+      ],
+      "wikipediaTitle": "Mac_OS_9",
+      "wikidataId": "Q858348",
+      "significance": 3,
+      "x": -3732,
+      "y": -1308,
+      "fx": -3732,
+      "fy": -1308,
+      "description": "Mac OS 9 is an historic apple macos / darwin architecture originating in 1999. Developed primarily by Apple Computer, it features a monolithic kernel design (Mac OS 9 Nanokernel) targeting PowerPC architectures under Proprietary.",
+      "sitelinks": 44
+    },
+    {
+      "id": "rhapsody",
+      "name": "Rhapsody",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "Mach 3.0 / BSD 4.4",
+      "inceptionYear": 1997,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "PowerPC",
+        "x86"
+      ],
+      "wikipediaTitle": "Rhapsody_(operating_system)",
+      "wikidataId": "Q858364",
+      "significance": 3,
+      "x": -3818,
+      "y": -1742,
+      "fx": -3818,
+      "fy": -1742,
+      "description": "Rhapsody is an historic apple macos / darwin architecture originating in 1997. Developed primarily by Apple Computer, it features a hybrid kernel design (Mach 3.0 / BSD 4.4) targeting PowerPC, x86 architectures under Proprietary.",
+      "sitelinks": 37
+    },
+    {
+      "id": "kubuntu",
+      "name": "Kubuntu",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2005,
+      "developer": "Kubuntu Team / Canonical",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Kubuntu",
+      "wikidataId": "Q484433",
+      "significance": 3,
+      "x": 3791,
+      "y": 1799,
+      "fx": 3791,
+      "fy": 1799,
+      "description": "Kubuntu is an actively maintained linux operating system distribution originating in 2005. Developed primarily by Kubuntu Team / Canonical, it features a monolithic kernel design (Linux) targeting x86-64 architectures under GPL.",
+      "sitelinks": 56
+    },
+    {
+      "id": "templeos",
+      "name": "TempleOS",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "TempleOS Ring-0 Kernel",
+      "inceptionYear": 2013,
+      "developer": "Terry A. Davis",
+      "license": "Public Domain",
+      "status": "historic",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "TempleOS",
+      "wikidataId": "Q18388487",
+      "significance": 3,
+      "x": 140,
+      "y": 4249,
+      "fx": 140,
+      "fy": 4249,
+      "description": "TempleOS is an historic independent operating system originating in 2013. Developed primarily by Terry A. Davis, it features a monolithic kernel design (TempleOS Ring-0 Kernel) targeting x86-64 architectures under Public Domain.",
+      "sitelinks": 32
+    },
+    {
+      "id": "hp-ux",
+      "name": "HP-UX",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "HP-UX Kernel",
+      "inceptionYear": 1982,
+      "developer": "Hewlett-Packard",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "PA-RISC",
+        "IA-64"
+      ],
+      "wikipediaTitle": "HP-UX",
+      "wikidataId": "Q216174",
+      "significance": 3,
+      "x": -113,
+      "y": -3982,
+      "fx": -113,
+      "fy": -3982,
+      "description": "HP-UX is an historic research & commercial unix system originating in 1982. Developed primarily by Hewlett-Packard, it features a monolithic kernel design (HP-UX Kernel) targeting PA-RISC, IA-64 architectures under Proprietary.",
+      "sitelinks": 15
+    },
+    {
+      "id": "sunos",
+      "name": "SunOS",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "SunOS Kernel",
+      "inceptionYear": 1982,
+      "developer": "Sun Microsystems",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "68000",
+        "SPARC"
+      ],
+      "wikipediaTitle": "SunOS",
+      "wikidataId": "Q474536",
+      "significance": 3,
+      "x": -43,
+      "y": -4033,
+      "fx": -43,
+      "fy": -4033,
+      "description": "SunOS is an historic research & commercial unix system originating in 1982. Developed primarily by Sun Microsystems, it features a monolithic kernel design (SunOS Kernel) targeting 68000, SPARC architectures under Proprietary.",
+      "sitelinks": 33
+    },
+    {
+      "id": "win-me",
+      "name": "Windows ME",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 9x Kernel (4.90)",
+      "inceptionYear": 2000,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "Windows_ME",
+      "wikidataId": "Q483881",
+      "significance": 3,
+      "x": -4054,
+      "y": 2366,
+      "fx": -4054,
+      "fy": 2366,
+      "description": "Windows ME is an historic windows desktop operating system originating in 2000. Developed primarily by Microsoft, it features a monolithic kernel design (Windows 9x Kernel (4.90)) targeting x86 architectures under Proprietary.",
+      "sitelinks": 73
+    },
+    {
+      "id": "apple-prodos",
+      "name": "Apple ProDOS",
+      "family": "apple",
+      "kernelType": "simple",
+      "kernelName": "ProDOS Core",
+      "inceptionYear": 1983,
+      "developer": "Apple Computer",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "6502",
+        "65C02"
+      ],
+      "wikipediaTitle": "Apple_ProDOS",
+      "wikidataId": "Q621422",
+      "significance": 3,
+      "x": -3707,
+      "y": -1418,
+      "fx": -3707,
+      "fy": -1418,
+      "description": "Apple ProDOS is an historic apple macos / darwin architecture originating in 1983. Developed primarily by Apple Computer, it features a simple kernel design (ProDOS Core) targeting 6502, 65C02 architectures under Proprietary.",
+      "sitelinks": 22
+    },
+    {
+      "id": "win-1",
+      "name": "Windows 1.0",
+      "family": "windows",
+      "kernelType": "simple",
+      "kernelName": "MS-DOS Executive",
+      "inceptionYear": 1985,
+      "developer": "Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86 (16-bit)"
+      ],
+      "wikipediaTitle": "Windows_1.0",
+      "wikidataId": "Q2355",
+      "significance": 3,
+      "x": -3634,
+      "y": 2254,
+      "fx": -3634,
+      "fy": 2254,
+      "description": "Windows 1.0 is an historic windows desktop operating system originating in 1985. Developed primarily by Microsoft, it features a simple kernel design (MS-DOS Executive) targeting x86 (16-bit) architectures under Proprietary.",
+      "sitelinks": 235
+    },
+    {
+      "id": "tails",
+      "name": "Tails",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2009,
+      "developer": "The Tails Project",
+      "license": "GPL-3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Tails_(operating_system)",
+      "wikidataId": "Q170669",
+      "significance": 3,
+      "x": 4215,
+      "y": 2044,
+      "fx": 4215,
+      "fy": 2044,
+      "description": "Tails is an actively maintained linux operating system distribution originating in 2009. Developed primarily by The Tails Project, it features a monolithic kernel design (Linux) targeting x86-64 architectures under GPL-3.0.",
+      "sitelinks": 18
+    },
+    {
+      "id": "irix",
+      "name": "IRIX",
+      "family": "unix",
+      "kernelType": "monolithic",
+      "kernelName": "IRIX Kernel",
+      "inceptionYear": 1988,
+      "developer": "Silicon Graphics (SGI)",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "MIPS"
+      ],
+      "wikipediaTitle": "IRIX",
+      "wikidataId": "Q242691",
+      "significance": 3,
+      "x": 43,
+      "y": -4033,
+      "fx": 43,
+      "fy": -4033,
+      "description": "IRIX is an historic research & commercial unix system originating in 1988. Developed primarily by Silicon Graphics (SGI), it features a monolithic kernel design (IRIX Kernel) targeting MIPS architectures under Proprietary.",
+      "sitelinks": 26
+    },
+    {
+      "id": "backtrack",
+      "name": "BackTrack",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2006,
+      "developer": "Max Moser & Mati Aharoni",
+      "license": "GPL",
+      "status": "historic",
+      "architectures": [
+        "x86",
+        "ARM"
+      ],
+      "wikipediaTitle": "BackTrack",
+      "wikidataId": "Q858345",
+      "significance": 3,
+      "x": 3900,
+      "y": 1780,
+      "fx": 3900,
+      "fy": 1780,
+      "description": "BackTrack is an historic linux operating system distribution originating in 2006. Developed primarily by Max Moser & Mati Aharoni, it features a monolithic kernel design (Linux) targeting x86, ARM architectures under GPL.",
+      "sitelinks": 30
+    },
+    {
+      "id": "atari-tos",
+      "name": "Atari TOS",
+      "family": "independent",
+      "kernelType": "simple",
+      "kernelName": "GEMDOS",
+      "inceptionYear": 1985,
+      "developer": "Atari Corporation",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "Motorola 68000"
+      ],
+      "wikipediaTitle": "Atari_TOS",
+      "wikidataId": "Q858349",
+      "significance": 3,
+      "x": -281,
+      "y": 4500,
+      "fx": -281,
+      "fy": 4500,
+      "description": "Atari TOS is an historic independent operating system originating in 1985. Developed primarily by Atari Corporation, it features a simple kernel design (GEMDOS) targeting Motorola 68000 architectures under Proprietary.",
+      "sitelinks": 30
+    },
+    {
+      "id": "pc-dos",
+      "name": "IBM PC DOS",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "IBMDOS.COM",
+      "inceptionYear": 1981,
+      "developer": "IBM / Microsoft",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86"
+      ],
+      "wikipediaTitle": "IBM_PC_DOS",
+      "wikidataId": "Q653696",
+      "significance": 3,
+      "x": -3480,
+      "y": 2100,
+      "fx": -3480,
+      "fy": 2100,
+      "description": "IBM PC DOS is an historic disk operating system (dos) originating in 1981. Developed primarily by IBM / Microsoft, it features a monolithic kernel design (IBMDOS.COM) targeting x86 architectures under Proprietary.",
+      "sitelinks": 41
+    },
+    {
+      "id": "macos-sierra",
+      "name": "macOS Sierra",
+      "family": "apple",
+      "kernelType": "hybrid",
+      "kernelName": "XNU",
+      "inceptionYear": 2016,
+      "developer": "Apple Inc.",
+      "license": "Proprietary",
+      "status": "historic",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "MacOS_Sierra",
+      "wikidataId": "Q24578135",
+      "significance": 3,
+      "x": -4191,
+      "y": -1574,
+      "fx": -4191,
+      "fy": -1574,
+      "description": "macOS Sierra is an historic apple macos / darwin architecture originating in 2016. Developed primarily by Apple Inc., it features a hybrid kernel design (XNU) targeting x86-64 architectures under Proprietary.",
+      "sitelinks": 110
+    },
+    {
+      "id": "xubuntu",
+      "name": "Xubuntu",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Xubuntu Kernel",
+      "inceptionYear": 2006,
+      "developer": "Canonical Ltd.",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Xubuntu",
+      "wikidataId": "Q72688",
+      "description": "Linux distribution based on Ubuntu, utilizing the Xfce desktop environment",
+      "significance": 3,
+      "x": 4009,
+      "y": 1799,
+      "fx": 4009,
+      "fy": 1799,
+      "sitelinks": 46
+    },
+    {
+      "id": "android-open-source-project",
+      "name": "Android Open Source Project",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Android Open Source Project Kernel",
+      "inceptionYear": 2000,
+      "developer": "Open Source Community / Independent",
+      "license": "Creative Commons Attribution 2.5 Generic",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Android_Open_Source_Project",
+      "wikidataId": "Q52161560",
+      "description": "open source software and corresponding open source project led by Google",
+      "significance": 3,
+      "x": 3585,
+      "y": 2156,
+      "fx": 3585,
+      "fy": 2156,
+      "sitelinks": 15
+    },
+    {
+      "id": "opensolaris",
+      "name": "OpenSolaris",
+      "family": "unix",
+      "kernelType": "simple",
+      "kernelName": "OpenSolaris Kernel",
+      "inceptionYear": 2000,
+      "developer": "Sun Microsystems",
+      "license": "Common Development and Distribution License version 1.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "OpenSolaris",
+      "wikidataId": "Q237580",
+      "description": "open source operating system from Sun Microsystems based on Solaris",
+      "significance": 3,
+      "x": 113,
+      "y": -3982,
+      "fx": 113,
+      "fy": -3982,
+      "sitelinks": 38
+    },
+    {
+      "id": "openwrt",
+      "name": "OpenWrt",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "OpenWrt Kernel",
+      "inceptionYear": 2004,
+      "developer": "Florian Fainelli",
+      "license": "GNU General Public License, version 2.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "OpenWrt",
+      "wikidataId": "Q1140401",
+      "description": "Linux distribution for wireless routers and embedded systems",
+      "significance": 3,
+      "x": 3694,
+      "y": 1855,
+      "fx": 3694,
+      "fy": 1855,
+      "sitelinks": 31
+    },
+    {
+      "id": "gnu-linux",
+      "name": "GNU/Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "GNU/Linux Kernel",
+      "inceptionYear": 2000,
+      "developer": "Open Source Community / Independent",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "GNU/Linux",
+      "wikidataId": "Q3251801",
+      "description": "operating system based on GNU and the Linux kernel",
+      "significance": 3,
+      "x": 3585,
+      "y": 2044,
+      "fx": 3585,
+      "fy": 2044,
+      "sitelinks": 48
+    },
+    {
+      "id": "lubuntu",
+      "name": "Lubuntu",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Lubuntu Kernel",
+      "inceptionYear": 2008,
+      "developer": "Canonical Ltd.",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Lubuntu",
+      "wikidataId": "Q39238",
+      "description": "lightweight Linux operating system based on Ubuntu",
+      "significance": 3,
+      "x": 4177,
+      "y": 1940,
+      "fx": 4177,
+      "fy": 1940,
+      "sitelinks": 48
+    },
+    {
+      "id": "mageia",
+      "name": "Mageia",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Linux",
+      "inceptionYear": 2011,
+      "developer": "Mageia.Org",
+      "license": "GPL",
+      "status": "active",
+      "architectures": [
+        "x86-64",
+        "ARM64"
+      ],
+      "wikipediaTitle": "Mageia",
+      "wikidataId": "Q230580",
+      "significance": 2,
+      "x": 4022,
+      "y": 1703,
+      "fx": 4022,
+      "fy": 1703,
+      "description": "Mageia is an actively maintained linux operating system distribution originating in 2011. Developed primarily by Mageia.Org, it features a monolithic kernel design (Linux) targeting x86-64, ARM64 architectures under GPL.",
+      "sitelinks": 42
+    },
+    {
+      "id": "windows-server-2003",
+      "name": "Windows Server 2003",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows Server 2003 Kernel",
+      "inceptionYear": 2003,
+      "developer": "Microsoft",
+      "license": "Client access license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_Server_2003",
+      "wikidataId": "Q11246",
+      "description": "version of the Windows Server line of server operating systems, based on Windows XP",
+      "significance": 2,
+      "x": -4054,
+      "y": 1834,
+      "fx": -4054,
+      "fy": 1834,
+      "sitelinks": 55
+    },
+    {
+      "id": "windows-8-1",
+      "name": "Windows 8.1",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 8.1 Kernel",
+      "inceptionYear": 2013,
+      "developer": "Microsoft",
+      "license": "end-user license agreement",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_8.1",
+      "wikidataId": "Q3569290",
+      "description": "personal computer operating system by Microsoft that was released in 2013",
+      "significance": 2,
+      "x": -3900,
+      "y": 1680,
+      "fx": -3900,
+      "fy": 1680,
+      "sitelinks": 56
+    },
+    {
+      "id": "microsoft-windows",
+      "name": "Microsoft Windows",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Microsoft Windows Kernel",
+      "inceptionYear": 1985,
+      "developer": "Microsoft",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Microsoft_Windows",
+      "wikidataId": "Q1406",
+      "description": "family of computer operating systems developed by Microsoft",
+      "significance": 2,
+      "x": -4320,
+      "y": 2100,
+      "fx": -4320,
+      "fy": 2100,
+      "sitelinks": 180
+    },
+    {
+      "id": "damn-small-linux",
+      "name": "Damn Small Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Damn Small Linux Kernel",
+      "inceptionYear": 2003,
+      "developer": "John Andrews",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Damn_Small_Linux",
+      "wikidataId": "Q192546",
+      "description": "Lightweight, desktop-oriented Linux distribution",
+      "significance": 2,
+      "x": 3541,
+      "y": 1893,
+      "fx": 3541,
+      "fy": 1893,
+      "sitelinks": 40
+    },
+    {
+      "id": "firefox-os",
+      "name": "Firefox OS",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Firefox OS Kernel",
+      "inceptionYear": 2013,
+      "developer": "Mozilla Foundation",
+      "license": "Apache License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Firefox_OS",
+      "wikidataId": "Q550303",
+      "description": "Linux-based mobile operating system by Mozilla",
+      "significance": 2,
+      "x": 4182,
+      "y": 1796,
+      "fx": 4182,
+      "fy": 1796,
+      "sitelinks": 40
+    },
+    {
+      "id": "watchos",
+      "name": "watchOS",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "watchOS Kernel",
+      "inceptionYear": 2015,
+      "developer": "Apple Inc.",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "WatchOS",
+      "wikidataId": "Q18012472",
+      "description": "mobile operating system for Apple Watches",
+      "significance": 2,
+      "x": -4164,
+      "y": -1722,
+      "fx": -4164,
+      "fy": -1722,
+      "sitelinks": 41
+    },
+    {
+      "id": "ios",
+      "name": "IOS",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "IOS Kernel",
+      "inceptionYear": 2000,
+      "developer": "Apple Inc.",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "IOS",
+      "wikidataId": "Q48493",
+      "description": "mobile operating system by Apple Inc.",
+      "significance": 2,
+      "x": -3690,
+      "y": -1715,
+      "fx": -3690,
+      "fy": -1715,
+      "sitelinks": 107
+    },
+    {
+      "id": "macos",
+      "name": "macOS",
+      "family": "apple",
+      "kernelType": "monolithic",
+      "kernelName": "macOS Kernel",
+      "inceptionYear": 2001,
+      "developer": "Apple Inc.",
+      "license": "BSD licenses",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "MacOS",
+      "wikidataId": "Q14116",
+      "description": "operating system for Apple computers",
+      "significance": 2,
+      "x": -3819,
+      "y": -1211,
+      "fx": -3819,
+      "fy": -1211,
+      "sitelinks": 110
+    },
+    {
+      "id": "windows-nt",
+      "name": "Windows NT",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows NT Kernel",
+      "inceptionYear": 2000,
+      "developer": "Microsoft",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_NT",
+      "wikidataId": "Q486487",
+      "description": "Microsoft operating system family",
+      "significance": 2,
+      "x": -4166,
+      "y": 1946,
+      "fx": -4166,
+      "fy": 1946,
+      "sitelinks": 59
+    },
+    {
+      "id": "puppy-linux",
+      "name": "Puppy Linux",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Puppy Linux Kernel",
+      "inceptionYear": 2003,
+      "developer": "Open Source Community / Independent",
+      "license": "GNU General Public License",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Puppy_Linux",
+      "wikidataId": "Q240116",
+      "description": "lightweight Linux distribution",
+      "significance": 2,
+      "x": 3666,
+      "y": 1757,
+      "fx": 3666,
+      "fy": 1757,
+      "sitelinks": 42
+    },
+    {
+      "id": "miui",
+      "name": "MIUI",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "MIUI Kernel",
+      "inceptionYear": 2010,
+      "developer": "Xiaomi",
+      "license": "GNU General Public License, version 3.0",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "MIUI",
+      "wikidataId": "Q1187721",
+      "description": "mobile Linux distribution",
+      "significance": 2,
+      "x": 3838,
+      "y": 1690,
+      "fx": 3838,
+      "fy": 1690,
+      "sitelinks": 40
+    },
+    {
+      "id": "windows-server-2008",
+      "name": "Windows Server 2008",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows Server 2008 Kernel",
+      "inceptionYear": 2008,
+      "developer": "Microsoft",
+      "license": "shareware",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_Server_2008",
+      "wikidataId": "Q11233",
+      "description": "version of the Windows Server line of server operating systems, based on Windows Vista and released in 2008",
+      "significance": 1,
+      "x": -4100,
+      "y": 2446,
+      "fx": -4100,
+      "fy": 2446,
+      "sitelinks": 47
+    },
+    {
+      "id": "windows-mobile",
+      "name": "Windows Mobile",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows Mobile Kernel",
+      "inceptionYear": 2000,
+      "developer": "Microsoft",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_Mobile",
+      "wikidataId": "Q21207",
+      "description": "discontinued family of mobile operating systems by Microsoft",
+      "significance": 1,
+      "x": -3354,
+      "y": 2100,
+      "fx": -3354,
+      "fy": 2100,
+      "sitelinks": 50
+    },
+    {
+      "id": "windows-2-0",
+      "name": "Windows 2.0",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 2.0 Kernel",
+      "inceptionYear": 1987,
+      "developer": "Microsoft",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_2.0",
+      "wikidataId": "Q485021",
+      "description": "16-bit Microsoft Windows GUI-based operating environment",
+      "significance": 1,
+      "x": -3746,
+      "y": 1834,
+      "fx": -3746,
+      "fy": 1834,
+      "sitelinks": 59
+    },
+    {
+      "id": "android-nougat",
+      "name": "Android Nougat",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Android Nougat Kernel",
+      "inceptionYear": 2016,
+      "developer": "Open Handset Alliance",
+      "license": "Android Open Source Project",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Android_Nougat",
+      "wikidataId": "Q22274379",
+      "description": "seventh major version of the Android operating system",
+      "significance": 1,
+      "x": 4314,
+      "y": 2131,
+      "fx": 4314,
+      "fy": 2131,
+      "sitelinks": 41
+    },
+    {
+      "id": "android-marshmallow",
+      "name": "Android Marshmallow",
+      "family": "linux",
+      "kernelType": "monolithic",
+      "kernelName": "Android Marshmallow Kernel",
+      "inceptionYear": 2015,
+      "developer": "Google",
+      "license": "free software",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Android_Marshmallow",
+      "wikidataId": "Q19862344",
+      "description": "sixth major version of the Android operating system",
+      "significance": 1,
+      "x": 4286,
+      "y": 1948,
+      "fx": 4286,
+      "fy": 1948,
+      "sitelinks": 40
+    },
+    {
+      "id": "windows-10-mobile",
+      "name": "Windows 10 Mobile",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 10 Mobile Kernel",
+      "inceptionYear": 2015,
+      "developer": "Microsoft",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_10_Mobile",
+      "wikidataId": "Q18845397",
+      "description": "mobile operating system developed by Microsoft",
+      "significance": 1,
+      "x": -4100,
+      "y": 1754,
+      "fx": -4100,
+      "fy": 1754,
+      "sitelinks": 42
+    },
+    {
+      "id": "windows-3-0",
+      "name": "Windows 3.0",
+      "family": "windows",
+      "kernelType": "monolithic",
+      "kernelName": "Windows 3.0 Kernel",
+      "inceptionYear": 1988,
+      "developer": "Microsoft",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Windows_3.0",
+      "wikidataId": "Q491546",
+      "description": "third major release of Microsoft Windows",
+      "significance": 1,
+      "x": -3634,
+      "y": 1946,
+      "fx": -3634,
+      "fy": 1946,
+      "sitelinks": 46
+    },
+    {
+      "id": "harmonyos",
+      "name": "HarmonyOS",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "HarmonyOS Kernel",
+      "inceptionYear": 2000,
+      "developer": "Huawei",
+      "license": "Open Source / Proprietary",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "HarmonyOS",
+      "wikidataId": "Q63986220",
+      "description": "operating system developed by Huawei",
+      "significance": 1,
+      "x": -400,
+      "y": 4500,
+      "fx": -400,
+      "fy": 4500,
+      "sitelinks": 40
+    },
+    {
+      "id": "symbian",
+      "name": "Symbian",
+      "family": "independent",
+      "kernelType": "monolithic",
+      "kernelName": "Symbian Kernel",
+      "inceptionYear": 1998,
+      "developer": "Symbian Foundation",
+      "license": "proprietary license",
+      "status": "active",
+      "architectures": [
+        "x86-64"
+      ],
+      "wikipediaTitle": "Symbian",
+      "wikidataId": "Q483318",
+      "description": "mobile operating system",
+      "significance": 1,
+      "x": 400,
+      "y": 4500,
+      "fx": 400,
+      "fy": 4500,
+      "sitelinks": 69
+    }
+  ],
+  "links": [
+    {
+      "source": "multics",
+      "target": "unix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix",
+      "target": "bsd-1",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "bsd-1",
+      "target": "bsd-42",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-42",
+      "target": "bsd-44-lite",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "freebsd",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "netbsd",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "netbsd",
+      "target": "openbsd",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "freebsd",
+      "target": "dragonflybsd",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "unix",
+      "target": "unix-system-iii",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-iii",
+      "target": "unix-system-v",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-42",
+      "target": "sunos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "solaris",
+      "relationType": "based_on"
+    },
+    {
+      "source": "sunos",
+      "target": "solaris",
+      "relationType": "based_on"
+    },
+    {
+      "source": "solaris",
+      "target": "illumos",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "aix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-iii",
+      "target": "hp-ux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "irix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix",
+      "target": "xenix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix",
+      "target": "plan9",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "plan9",
+      "target": "inferno",
+      "relationType": "based_on"
+    },
+    {
+      "source": "cp-m",
+      "target": "qdos",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "qdos",
+      "target": "ms-dos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ms-dos",
+      "target": "pc-dos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ms-dos",
+      "target": "freedos",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "ms-dos",
+      "target": "win-1",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-1",
+      "target": "win-3",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-3",
+      "target": "win-95",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-95",
+      "target": "win-98",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-98",
+      "target": "win-me",
+      "relationType": "based_on"
+    },
+    {
+      "source": "vms",
+      "target": "win-nt-31",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "win-nt-31",
+      "target": "win-nt-40",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "win-2000",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-2000",
+      "target": "win-xp",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-xp",
+      "target": "win-vista",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-vista",
+      "target": "win-7",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-7",
+      "target": "win-8",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-8",
+      "target": "win-10",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-10",
+      "target": "win-11",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "reactos",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "apple-dos",
+      "target": "apple-prodos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "lisa-os",
+      "target": "classic-mac-os",
+      "relationType": "based_on"
+    },
+    {
+      "source": "classic-mac-os",
+      "target": "system-7",
+      "relationType": "based_on"
+    },
+    {
+      "source": "system-7",
+      "target": "mac-os-9",
+      "relationType": "based_on"
+    },
+    {
+      "source": "mach",
+      "target": "nextstep",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-42",
+      "target": "nextstep",
+      "relationType": "based_on"
+    },
+    {
+      "source": "nextstep",
+      "target": "openstep",
+      "relationType": "based_on"
+    },
+    {
+      "source": "openstep",
+      "target": "rhapsody",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "darwin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "mach",
+      "target": "darwin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "rhapsody",
+      "target": "darwin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "mac-os-x-cheetah",
+      "relationType": "based_on"
+    },
+    {
+      "source": "mac-os-x-cheetah",
+      "target": "mac-os-x-snow-leopard",
+      "relationType": "based_on"
+    },
+    {
+      "source": "mac-os-x-snow-leopard",
+      "target": "macos-sierra",
+      "relationType": "based_on"
+    },
+    {
+      "source": "macos-sierra",
+      "target": "macos-sonoma",
+      "relationType": "based_on"
+    },
+    {
+      "source": "minix",
+      "target": "linux-kernel",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "gnu",
+      "target": "linux-kernel",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "sls",
+      "relationType": "based_on"
+    },
+    {
+      "source": "sls",
+      "target": "slackware",
+      "relationType": "based_on"
+    },
+    {
+      "source": "slackware",
+      "target": "suse",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "debian",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "ubuntu",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "kubuntu",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "linux-mint",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "elementary-os",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "pop-os",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "backtrack",
+      "relationType": "based_on"
+    },
+    {
+      "source": "backtrack",
+      "target": "kali-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "tails",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "raspberry-pi-os",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "mx-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian",
+      "target": "devuan",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "debian",
+      "target": "deepin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "red-hat-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-linux",
+      "target": "rhel",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-linux",
+      "target": "fedora",
+      "relationType": "based_on"
+    },
+    {
+      "source": "rhel",
+      "target": "centos",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "rhel",
+      "target": "rocky-linux",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "rhel",
+      "target": "almalinux",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "red-hat-linux",
+      "target": "mandriva",
+      "relationType": "based_on"
+    },
+    {
+      "source": "mandriva",
+      "target": "mageia",
+      "relationType": "kernel_fork"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "arch-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "arch-linux",
+      "target": "manjaro",
+      "relationType": "based_on"
+    },
+    {
+      "source": "arch-linux",
+      "target": "endeavouros",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "gentoo",
+      "relationType": "based_on"
+    },
+    {
+      "source": "gentoo",
+      "target": "chromeos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "alpine",
+      "relationType": "based_on"
+    },
+    {
+      "source": "alpine",
+      "target": "postmarketos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "void-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "nixos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "nixos",
+      "target": "guix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "beos",
+      "target": "haiku",
+      "relationType": "reimplementation"
+    },
+    {
+      "source": "android-operating-system",
+      "target": "miui",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "win-me",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "knoppix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "deepin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "knoppix",
+      "target": "damn-small-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-enterprise-linux",
+      "target": "centos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "xubuntu",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "xenix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "nextstep",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "openstep",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "tails",
+      "relationType": "based_on"
+    },
+    {
+      "source": "opensolaris",
+      "target": "illumos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "solaris",
+      "target": "opensolaris",
+      "relationType": "based_on"
+    },
+    {
+      "source": "android-operating-system",
+      "target": "lineageos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "mx-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "mac-os-x-snow-leopard",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "gnu-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "gnu",
+      "target": "gnu-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-enterprise-linux",
+      "target": "rocky-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "centos",
+      "target": "rocky-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-8",
+      "target": "windows-8-1",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "irix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "centos",
+      "target": "almalinux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-enterprise-linux",
+      "target": "almalinux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "nextstep",
+      "target": "darwin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "macos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "freebsd",
+      "target": "macos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "freebsd",
+      "target": "darwin",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-me",
+      "target": "win-xp",
+      "relationType": "based_on"
+    },
+    {
+      "source": "windows-nt",
+      "target": "win-8",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "ubuntu",
+      "relationType": "based_on"
+    },
+    {
+      "source": "kubuntu",
+      "target": "linux-mint",
+      "relationType": "based_on"
+    },
+    {
+      "source": "windows-server-2003",
+      "target": "win-vista",
+      "relationType": "based_on"
+    },
+    {
+      "source": "red-hat-linux",
+      "target": "fedora-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "bsd-44-lite",
+      "target": "openbsd",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix",
+      "target": "bsd-44-lite",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ubuntu",
+      "target": "lubuntu",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "ios",
+      "relationType": "based_on"
+    },
+    {
+      "source": "macos",
+      "target": "ios",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "kali-linux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "gnu-linux",
+      "target": "debian-q7715973",
+      "relationType": "based_on"
+    },
+    {
+      "source": "debian-q7715973",
+      "target": "devuan",
+      "relationType": "based_on"
+    },
+    {
+      "source": "windows-8-1",
+      "target": "win-10",
+      "relationType": "based_on"
+    },
+    {
+      "source": "ios",
+      "target": "watchos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "gnu-linux",
+      "target": "guix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "macos-sierra",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "windows-2-0",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "unix-system-iii",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "sunos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "minix",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "lisa-os",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "windows-3-0",
+      "relationType": "based_on"
+    },
+    {
+      "source": "unix-system-v",
+      "target": "hp-ux",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "win-3",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "mac-os-9",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "win-nt-31",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "system-7",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "rhapsody",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "backtrack",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "apple-prodos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "darwin",
+      "target": "apple-dos",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "windows-server-2008",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "win-1",
+      "relationType": "based_on"
+    },
+    {
+      "source": "win-nt-40",
+      "target": "windows-10-mobile",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "android-nougat",
+      "relationType": "based_on"
+    },
+    {
+      "source": "linux-kernel",
+      "target": "android-marshmallow",
+      "relationType": "based_on"
+    }
+  ]
+}
